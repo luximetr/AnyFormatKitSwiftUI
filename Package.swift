@@ -11,6 +11,9 @@ let package = Package(
             targets: ["AnyFormatKitSwiftUI"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/luximetr/AnyFormatKit", .branch("swift_ui_support"))
+    ],
     targets: [
         .target(
             name: "AnyFormatKitSwiftUI",
