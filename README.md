@@ -1,6 +1,6 @@
 # AnyFormatKitSwiftUI
 
-[![CI Status](https://img.shields.io/travis/Oleksandr Orlov/AnyFormatKitSwiftUI.svg?style=flat)](https://travis-ci.org/Oleksandr Orlov/AnyFormatKitSwiftUI)
+[![CI Status](https://img.shields.io/travis/luximetr/AnyFormatKitSwiftUI.svg?style=flat)](https://travis-ci.org/Oleksandr Orlov/AnyFormatKitSwiftUI)
 [![Version](https://img.shields.io/cocoapods/v/AnyFormatKitSwiftUI.svg?style=flat)](https://cocoapods.org/pods/AnyFormatKitSwiftUI)
 [![License](https://img.shields.io/cocoapods/l/AnyFormatKitSwiftUI.svg?style=flat)](https://cocoapods.org/pods/AnyFormatKitSwiftUI)
 [![Platform](https://img.shields.io/cocoapods/p/AnyFormatKitSwiftUI.svg?style=flat)](https://cocoapods.org/pods/AnyFormatKitSwiftUI)
