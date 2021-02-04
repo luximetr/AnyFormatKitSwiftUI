@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-SwiftUIExample/Pods-SwiftUIExample-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AnyFormatKit/AnyFormatKit.framework
+${BUILT_PRODUCTS_DIR}/AnyFormatKitSwiftUI/AnyFormatKitSwiftUI.framework

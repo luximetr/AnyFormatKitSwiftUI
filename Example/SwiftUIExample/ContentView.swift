@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import AnyFormatKit
+import AnyFormatKitSwiftUI
 
 struct ContentView: View {
     

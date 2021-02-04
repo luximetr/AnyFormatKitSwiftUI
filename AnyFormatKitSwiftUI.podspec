@@ -16,6 +16,6 @@ This framework provide to format text with format like "## ##-###", where # - re
 
   s.source_files = 'Source/**/*'
 
-  s.dependency 'AnyFormatKit', '~> 2.3'
+  s.dependency 'AnyFormatKit', '~> 2.2'
   
 end

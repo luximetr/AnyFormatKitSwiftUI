@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AnyFormatKitSwiftUI",
+        "repositoryURL": "/Users/oorlov1/Documents/Projects/Education/AnyFormatKitSwiftUI",
+        "state": {
+          "branch": "develop",
+          "revision": "02ecc5146690ca078afce064922d4bf1b12ddb84",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

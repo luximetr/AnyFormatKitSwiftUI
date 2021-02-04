@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D25F5C25CC87FA00C92E57 /* AnyFormatKit in Frameworks */ = {isa = PBXBuildFile; productRef = 02D25F5B25CC87FA00C92E57 /* AnyFormatKit */; };
 		02F13B0325CB1441007F2F6D /* AnyFormatKitSwiftUI.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 02F13B0225CB1441007F2F6D /* AnyFormatKitSwiftUI.podspec */; };
 		02F13B0625CB144C007F2F6D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 02F13B0525CB144C007F2F6D /* LICENSE */; };
 		02F13B0C25CB149C007F2F6D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 02F13B0B25CB149C007F2F6D /* README.md */; };
 		02F13B1225CB1606007F2F6D /* FormatTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F13B1125CB1606007F2F6D /* FormatTextField.swift */; };
-		02F13B1825CB19D2007F2F6D /* AnyFormatKit in Frameworks */ = {isa = PBXBuildFile; productRef = 02F13B1725CB19D2007F2F6D /* AnyFormatKit */; };
 		02F13B1D25CB1A5D007F2F6D /* VoidAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F13B1C25CB1A5D007F2F6D /* VoidAction.swift */; };
 		02F13B2025CB1A6B007F2F6D /* TextAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F13B1F25CB1A6B007F2F6D /* TextAction.swift */; };
 		02F13B2525CB1AB5007F2F6D /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F13B2425CB1AB5007F2F6D /* UITextField+Extension.swift */; };
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F13B1825CB19D2007F2F6D /* AnyFormatKit in Frameworks */,
+				02D25F5C25CC87FA00C92E57 /* AnyFormatKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +154,7 @@
 			);
 			name = AnyFormatKitSwiftUI;
 			packageProductDependencies = (
-				02F13B1725CB19D2007F2F6D /* AnyFormatKit */,
+				02D25F5B25CC87FA00C92E57 /* AnyFormatKit */,
 			);
 			productName = AnyFormatKitSwiftUI;
 			productReference = 02F13AEA25CB12A1007F2F6D /* AnyFormatKitSwiftUI.framework */;
@@ -184,7 +184,7 @@
 			);
 			mainGroup = 02F13AE025CB12A0007F2F6D;
 			packageReferences = (
-				02F13B1625CB19D2007F2F6D /* XCRemoteSwiftPackageReference "AnyFormatKit" */,
+				02D25F5A25CC87FA00C92E57 /* XCRemoteSwiftPackageReference "AnyFormatKit" */,
 			);
 			productRefGroup = 02F13AEB25CB12A1007F2F6D /* Products */;
 			projectDirPath = "";
@@ -424,20 +424,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		02F13B1625CB19D2007F2F6D /* XCRemoteSwiftPackageReference "AnyFormatKit" */ = {
+		02D25F5A25CC87FA00C92E57 /* XCRemoteSwiftPackageReference "AnyFormatKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/luximetr/AnyFormatKit";
 			requirement = {
-				branch = feature/swift_ui_support;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		02F13B1725CB19D2007F2F6D /* AnyFormatKit */ = {
+		02D25F5B25CC87FA00C92E57 /* AnyFormatKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 02F13B1625CB19D2007F2F6D /* XCRemoteSwiftPackageReference "AnyFormatKit" */;
+			package = 02D25F5A25CC87FA00C92E57 /* XCRemoteSwiftPackageReference "AnyFormatKit" */;
 			productName = AnyFormatKit;
 		};
 /* End XCSwiftPackageProductDependency section */
