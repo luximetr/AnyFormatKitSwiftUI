@@ -360,7 +360,7 @@
 			repositoryURL = "https://github.com/luximetr/AnyFormatKitSwiftUI";
 			requirement = {
 				kind = revision;
-				revision = a458fe099bc1b405066888ee658c574a43ae5882;
+				revision = d219932216e7f770a38afc748a1860ed6f908d82;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
