@@ -20,7 +20,8 @@ let package = Package(
         .target(
             name: "AnyFormatKitSwiftUI",
             dependencies: ["AnyFormatKit"],
-            path: "Sources"),
+            path: "Sources",
+            exclude: ["Example"]),
         .testTarget(
             name: "AnyFormatKitSwiftUITests",
             dependencies: ["AnyFormatKitSwiftUI"]),
