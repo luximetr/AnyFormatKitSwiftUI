@@ -13,7 +13,7 @@
 		02A3B1E525CDBBBC00CC875E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A3B1E425CDBBBC00CC875E /* Assets.xcassets */; };
 		02A3B1E825CDBBBC00CC875E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A3B1E725CDBBBC00CC875E /* Preview Assets.xcassets */; };
 		02A3B1EB25CDBBBC00CC875E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A3B1E925CDBBBC00CC875E /* LaunchScreen.storyboard */; };
-		02A3B1F925CDBE7400CC875E /* AnyFormatKitSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 02A3B1F825CDBE7400CC875E /* AnyFormatKitSwiftUI */; };
+		02A3B23925CDDF8C00CC875E /* AnyFormatKitSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 02A3B23825CDDF8C00CC875E /* AnyFormatKitSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02A3B1F925CDBE7400CC875E /* AnyFormatKitSwiftUI in Frameworks */,
+				02A3B23925CDDF8C00CC875E /* AnyFormatKitSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				02A3B1F825CDBE7400CC875E /* AnyFormatKitSwiftUI */,
+				02A3B23825CDDF8C00CC875E /* AnyFormatKitSwiftUI */,
 			);
 			productName = Example;
 			productReference = 02A3B1DB25CDBBBB00CC875E /* Example.app */;
@@ -124,7 +124,7 @@
 			);
 			mainGroup = 02A3B1D225CDBBBB00CC875E;
 			packageReferences = (
-				02A3B1F725CDBE7400CC875E /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */,
+				02A3B23725CDDF8C00CC875E /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */,
 			);
 			productRefGroup = 02A3B1DC25CDBBBB00CC875E /* Products */;
 			projectDirPath = "";
@@ -355,20 +355,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		02A3B1F725CDBE7400CC875E /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */ = {
+		02A3B23725CDDF8C00CC875E /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/luximetr/AnyFormatKitSwiftUI";
 			requirement = {
-				kind = revision;
-				revision = d219932216e7f770a38afc748a1860ed6f908d82;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		02A3B1F825CDBE7400CC875E /* AnyFormatKitSwiftUI */ = {
+		02A3B23825CDDF8C00CC875E /* AnyFormatKitSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 02A3B1F725CDBE7400CC875E /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */;
+			package = 02A3B23725CDDF8C00CC875E /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */;
 			productName = AnyFormatKitSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
