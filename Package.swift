@@ -21,7 +21,7 @@ let package = Package(
             name: "AnyFormatKitSwiftUI",
             dependencies: ["AnyFormatKit"],
             path: "Sources",
-            exclude: ["./../Example", "README.md", "ExcludeFile.swift"]),
+            exclude: ["./../Example", "README.md"]),
         .testTarget(
             name: "AnyFormatKitSwiftUITests",
             dependencies: ["AnyFormatKitSwiftUI"]),
