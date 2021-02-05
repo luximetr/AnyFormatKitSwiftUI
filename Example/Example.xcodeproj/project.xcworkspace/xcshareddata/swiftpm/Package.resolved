@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AnyFormatKit",
+        "repositoryURL": "https://github.com/luximetr/AnyFormatKit",
+        "state": {
+          "branch": null,
+          "revision": "ff13418ca601ce6947161daade2ca58df5542499",
+          "version": "2.4.0"
+        }
+      },
+      {
+        "package": "AnyFormatKitSwiftUI",
+        "repositoryURL": "https://github.com/luximetr/AnyFormatKitSwiftUI",
+        "state": {
+          "branch": null,
+          "revision": "d219932216e7f770a38afc748a1860ed6f908d82",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
