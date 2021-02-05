@@ -3,10 +3,10 @@
     "pins": [
       {
         "package": "AnyFormatKitSwiftUI",
-        "repositoryURL": "/Users/oorlov1/Documents/Projects/Education/AnyFormatKitSwiftUI",
+        "repositoryURL": "https://github.com/luximetr/AnyFormatKitSwiftUI",
         "state": {
           "branch": "develop",
-          "revision": "02ecc5146690ca078afce064922d4bf1b12ddb84",
+          "revision": "569ad1058b01d24bffe3166aa67e36c48bafeb3a",
           "version": null
         }
       }

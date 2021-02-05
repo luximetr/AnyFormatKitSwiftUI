@@ -13,6 +13,7 @@
 		02B6FFF825C326FE004281A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6FFF725C326FE004281A4 /* ContentView.swift */; };
 		02B6FFFA25C326FF004281A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B6FFF925C326FF004281A4 /* Assets.xcassets */; };
 		02B6FFFD25C326FF004281A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B6FFFC25C326FF004281A4 /* Preview Assets.xcassets */; };
+		02D25F6325CC8B1900C92E57 /* AnyFormatKitSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 02D25F6225CC8B1900C92E57 /* AnyFormatKitSwiftUI */; };
 		3127745C372E10DBEC9DA634 /* Pods_SwiftUIExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE003B516693E606529D1F6 /* Pods_SwiftUIExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3127745C372E10DBEC9DA634 /* Pods_SwiftUIExample.framework in Frameworks */,
+				02D25F6325CC8B1900C92E57 /* AnyFormatKitSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +129,7 @@
 			);
 			name = SwiftUIExample;
 			packageProductDependencies = (
+				02D25F6225CC8B1900C92E57 /* AnyFormatKitSwiftUI */,
 			);
 			productName = SwiftUIExample;
 			productReference = 02B6FFF225C326FE004281A4 /* SwiftUIExample.app */;
@@ -156,7 +159,7 @@
 			);
 			mainGroup = 02B6FFE925C326FE004281A4;
 			packageReferences = (
-				02F13B4925CB39EC007F2F6D /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */,
+				02D25F6125CC8B1900C92E57 /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */,
 			);
 			productRefGroup = 02B6FFF325C326FE004281A4 /* Products */;
 			projectDirPath = "";
@@ -409,15 +412,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		02F13B4925CB39EC007F2F6D /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */ = {
+		02D25F6125CC8B1900C92E57 /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/oorlov1/Documents/Projects/Education/AnyFormatKitSwiftUI";
+			repositoryURL = "https://github.com/luximetr/AnyFormatKitSwiftUI";
 			requirement = {
-				kind = revision;
-				revision = b693f752f9923d7426da8c51df2262028121a9ef;
+				branch = develop;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02D25F6225CC8B1900C92E57 /* AnyFormatKitSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02D25F6125CC8B1900C92E57 /* XCRemoteSwiftPackageReference "AnyFormatKitSwiftUI" */;
+			productName = AnyFormatKitSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 02B6FFEA25C326FE004281A4 /* Project object */;
 }
