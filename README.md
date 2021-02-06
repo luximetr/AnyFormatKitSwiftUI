@@ -1,12 +1,23 @@
 ![AnyFormatKitSwiftUI: Simple text formatting for SwiftUI](https://github.com/luximetr/AnyFormatKitSwiftUI/blob/develop/Assets/anyformatkitswiftui_logo.jpeg)
 
-[![CI Status](http://img.shields.io/travis/luximetr/AnyFormatKit.svg?style=flat)](https://travis-ci.org/luximetr/AnyFormatKit)
-[![Version](https://img.shields.io/cocoapods/v/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
-[![License](https://img.shields.io/cocoapods/l/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
-[![Platform](https://img.shields.io/cocoapods/p/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
+[![CI Status](http://img.shields.io/travis/luximetr/AnyFormatKitSwiftUI.svg?style=flat)](https://travis-ci.org/luximetr/AnyFormatKitSwiftUI)
+[![Version](https://img.shields.io/cocoapods/v/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
+[![License](https://img.shields.io/cocoapods/l/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
+[![Platform](https://img.shields.io/cocoapods/p/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
 ![Swift](https://img.shields.io/badge/%20in-swift%205.0-brightgreen.svg)
+![SwiftUI](https://img.shields.io/badge/%20in-swiftui-brightgreen.svg)
 
 Text formatting framework written for SwiftUI.
+
+## Demo
+
+![Phone number example](Assets/example_phone_number.gif)
+
+![Currency example](Assets/example_sum.gif)
+
+![Card number example](Assets/example_card_number.gif)
+
+![Placeholder number number example](Assets/example_placeholder_phone_number.gif)
 
 ## Features
 
@@ -19,16 +30,6 @@ Text formatting framework written for SwiftUI.
 :heavy_dollar_sign:| Formatting money amount
 :parking:| Formatting with placeholders
 :seedling:| UITextField and UITextView support
-
-## Demo
-
-![Phone number example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_phone_number.gif)
-
-![Currency example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_sum.gif)
-
-![Card number example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_card_number.gif)
-
-![Placeholder number number example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_placeholder_phone_number.gif)
 
 ## Requirements
 
