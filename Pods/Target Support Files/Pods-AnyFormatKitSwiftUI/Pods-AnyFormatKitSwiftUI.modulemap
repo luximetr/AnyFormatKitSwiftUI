@@ -1,0 +1,6 @@
+framework module Pods_AnyFormatKitSwiftUI {
+  umbrella header "Pods-AnyFormatKitSwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

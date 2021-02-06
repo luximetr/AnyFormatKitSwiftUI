@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_AnyFormatKitSwiftUI_AnyFormatKitSwiftUITests : NSObject
+@end
+@implementation PodsDummy_Pods_AnyFormatKitSwiftUI_AnyFormatKitSwiftUITests
+@end
