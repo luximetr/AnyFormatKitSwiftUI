@@ -1,0 +1,6 @@
+framework module AnyFormatKitSwiftUI {
+  umbrella header "AnyFormatKitSwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - AnyFormatKit (2.4.0)
+  - AnyFormatKitSwiftUI (0.2.0):
+    - AnyFormatKit (~> 2.4.0)
+
+DEPENDENCIES:
+  - AnyFormatKitSwiftUI (from `../../`)
+
+SPEC REPOS:
+  trunk:
+    - AnyFormatKit
+
+EXTERNAL SOURCES:
+  AnyFormatKitSwiftUI:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  AnyFormatKit: 2ca2ad3f6fa0f6862a650342141d2bcaa42e9186
+  AnyFormatKitSwiftUI: 60971ef9ff196a910c1bc548929628a918256187
+
+PODFILE CHECKSUM: a05453334068cdb33cc16ef7c4e453572c0c89ac
+
+COCOAPODS: 1.10.0
