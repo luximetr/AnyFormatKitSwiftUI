@@ -1,56 +1,50 @@
 ![AnyFormatKitSwiftUI: Simple text formatting for SwiftUI](https://github.com/luximetr/AnyFormatKitSwiftUI/blob/develop/Assets/anyformatkitswiftui_logo.jpeg)
 
-[![CI Status](http://img.shields.io/travis/luximetr/AnyFormatKit.svg?style=flat)](https://travis-ci.org/luximetr/AnyFormatKit)
-[![Version](https://img.shields.io/cocoapods/v/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
-[![License](https://img.shields.io/cocoapods/l/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
-[![Platform](https://img.shields.io/cocoapods/p/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
+[![CI Status](http://img.shields.io/travis/luximetr/AnyFormatKitSwiftUI.svg?style=flat)](https://travis-ci.org/luximetr/AnyFormatKitSwiftUI)
+[![Version](https://img.shields.io/cocoapods/v/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
+[![License](https://img.shields.io/cocoapods/l/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
+[![Platform](https://img.shields.io/cocoapods/p/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
 ![Swift](https://img.shields.io/badge/%20in-swift%205.0-brightgreen.svg)
+![SwiftUI](https://img.shields.io/badge/%20in-swiftUI-brightgreen.svg)
 
 Text formatting framework written for SwiftUI.
 
-## Features
-
-| |Features |
-|-------------------|------------------------------------------------------------|
-:performing_arts:| Convert string into formatted string and vice versa
-:bicyclist:| Formatting text during typing
-:hash:| Set format using '#' characters like '### ##-###'
-:stuck_out_tongue:| Supporting emojis
-:heavy_dollar_sign:| Formatting money amount
-:parking:| Formatting with placeholders
-:seedling:| UITextField and UITextView support
-
 ## Demo
 
-![Phone number example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_phone_number.gif)
+![Phone number example](Assets/example_phone_number.gif)
 
-![Currency example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_sum.gif)
+![Currency example](Assets/example_sum.gif)
 
-![Card number example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_card_number.gif)
+![Card number example](Assets/example_card_number.gif)
 
-![Placeholder number number example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_placeholder_phone_number.gif)
+![Placeholder number number example](Assets/example_placeholder_phone_number.gif)
+
 
 ## Requirements
 
-- iOS 8.0+
+- iOS 13.0+
 - Swift 4.0+
-- Xcode 9.0+
-
-## Migration Guides
-
-- [AnyFormatKit 0.2.0 MigrationGuide](https://github.com/luximetr/AnyFormatKit/blob/master/Documentation/AnyFormatKit%200.2.0%20MigrationGuide.md)
-- [AnyFormatKit 1.0.0 MigrationGuide](https://github.com/luximetr/AnyFormatKit/blob/master/Documentation/AnyFormatKit%201.0.0%20MigrationGuide.md)
-- [AnyFormatKit 2.4.0 MigrationGuide](https://github.com/luximetr/AnyFormatKit/blob/master/Documentation/AnyFormatKit%202.4.0%20MigrationGuide.md)
+- Xcode 11.0+
 
 ## Installation
 
+### Swift Package Manager
+AnyFormatKit is available with [Swift Package Manager](https://swift.org/package-manager/). 
+Once you have your Swift package set up, than simply add AnyFormatKitSwiftUI to the `dependencies` value of your `Package.swift`
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/luximetr/AnyFormatKitSwiftUI.git", .upToNextMajor(from: "0.3.0"))
+]
+```
+
 ### CocoaPods
 
-AnyFormatKit is available through [CocoaPods](http://cocoapods.org). To install
+AnyFormatKitSwiftUI is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AnyFormatKit', '~> 2.4.0'
+pod 'AnyFormatKitSwiftUI', '~> 0.3.0'
 ```
 
 Then, run the following command:
@@ -59,57 +53,41 @@ Then, run the following command:
 $ pod install
 ```
 
-### Swift Package Manager
-AnyFormatKit is available with [Swift Package Manager](https://swift.org/package-manager/). 
-Once you have your Swift package set up, than simply add AnyFormatKit to the `dependencies` value of your `Package.swift`
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/luximetr/AnyFormatKit.git", .upToNextMajor(from: "2.4.0"))
-]
-```
-
 ## Usage
 
-### Import
-
 ```swift
-import AnyFormatKit
+import SwiftUI
+import AnyFormatKitSwiftUI
+
+struct ContentView: View {
+    @State var text = ""
+    
+    var body: some View {
+        FormatTextField(
+            unformattedText: $text,
+            textPattern: "### (###) ###-##-##"
+        )
+    }
+}
 ```
 
-#### Formatting with TextFormatter
+For more details look [example](Example/SPMCheck/SPMCheck/ContentView.swift)
 
-```swift
-let phoneFormatter = DefaultTextInputFormatter(textPattern: "### (###) ###-##-##")
-let phoneInputController = TextFieldInputController()
+### TextField types
 
-textField.delegate = phoneInputController
-phoneInputController.formatter = phoneFormatter
-```
+- `FormatTextField` - formatting [symbol by symbol](Assets/example_phone_number.gif)
+- `FormatSumTextField` - formatting like a [money format](Assets/example_sum.gif)
+- `FormatStartTextField` - formatting with all textPattern as [placeholder](Assets/example_placeholder_phone_number.gif)
 
-#### Get only your input
-```swift
-phoneNumberFormatter.unformat("+51 (013) 442-55-11") // +51013442551 
-```
+## Features
 
-#### In case you want to use `textField.delegate` by yourself 
-
-```swift
-let phoneFormatter = DefaultTextInputFormatter(textPattern: "### (###) ###-##-##")
-
-// inside of UITextFieldDelegate shouldChangeTextIn method
-let result = formatter.formatInput(currentText: textField.text ?? "", range: range, replacementString: string)
-textField.text = result.formattedText
-textField.setCursorLocation(result.caretBeginOffset)
-```
-
-> You can find example of `setCursorLocation` [here](https://github.com/luximetr/AnyFormatKit/blob/develop/Source/Extensions/UITextField%2BExtension.swift) 
-
-### Formatter kinds
-
-- `DefaultTextInputFormatter` - formatting [symbol by symbol](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_phone_number.gif)
-- `SumTextInputFormatter` - formatting like a [money format](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_sum.gif)
-- `PlaceholderTextInputFormatter` - formatting with all textPattern as [placeholder](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_placeholder_phone_number.gif)
+| |Features |
+|-------------------|------------------------------------------------------------|
+:bicyclist:| Formatting text during typing
+:hash:| Set format using '#' characters like '### ##-###'
+:stuck_out_tongue:| Supporting emojis
+:heavy_dollar_sign:| Formatting money amount
+:parking:| Formatting with placeholders
 
 ## Author
 
@@ -121,5 +99,5 @@ luximetr, luximetr.notification@gmail.com
 
 ## License
 
-AnyFormatKit is available under the MIT license. See the LICENSE file for more info.
+AnyFormatKitSwiftUI is available under the MIT license. See the LICENSE file for more info.
 

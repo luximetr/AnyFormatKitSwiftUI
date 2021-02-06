@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AE88D4302B3EF2C6AAE6782 /* Pods_AnyFormatKitSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0380CBF3E7AFB319E412C657 /* Pods_AnyFormatKitSwiftUI.framework */; };
+		7693F9109570D3E4DC2B3506 /* Pods_AnyFormatKitSwiftUI_AnyFormatKitSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6443E62212E04760F14B642 /* Pods_AnyFormatKitSwiftUI_AnyFormatKitSwiftUITests.framework */; };
+		OBJ_115 /* TextAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* TextAction.swift */; };
+		OBJ_116 /* VoidAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* VoidAction.swift */; };
+		OBJ_117 /* FormatStartTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* FormatStartTextField.swift */; };
+		OBJ_118 /* FormatSumTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* FormatSumTextField.swift */; };
+		OBJ_119 /* FormatTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* FormatTextField.swift */; };
+		OBJ_120 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* UITextField+Extension.swift */; };
+		OBJ_140 /* AnyFormatKitSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* AnyFormatKitSwiftUITests.swift */; };
+		OBJ_141 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* XCTestManifests.swift */; };
+		OBJ_143 /* AnyFormatKitSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AnyFormatKitSwiftUI::AnyFormatKitSwiftUI::Product" /* AnyFormatKitSwiftUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B5984725CEA7C10089FD80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "AnyFormatKitSwiftUI::AnyFormatKitSwiftUI";
+			remoteInfo = AnyFormatKitSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B5987825CEA9830089FD80 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0380CBF3E7AFB319E412C657 /* Pods_AnyFormatKitSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyFormatKitSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CAFD8AA738EE76D3B5A452 /* Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests/Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		908C3EE160C008024D8413E5 /* Pods-AnyFormatKitSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyFormatKitSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-AnyFormatKitSwiftUI/Pods-AnyFormatKitSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		"AnyFormatKitSwiftUI::AnyFormatKitSwiftUI::Product" /* AnyFormatKitSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AnyFormatKitSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AnyFormatKitSwiftUI::AnyFormatKitSwiftUITests::Product" /* AnyFormatKitSwiftUITests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnyFormatKitSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43154714517F456EE082F91 /* Pods-AnyFormatKitSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyFormatKitSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-AnyFormatKitSwiftUI/Pods-AnyFormatKitSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		C6443E62212E04760F14B642 /* Pods_AnyFormatKitSwiftUI_AnyFormatKitSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyFormatKitSwiftUI_AnyFormatKitSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E6020F1370577B8ADE4CA8 /* Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests/Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		OBJ_10 /* VoidAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoidAction.swift; sourceTree = "<group>"; };
+		OBJ_12 /* FormatStartTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatStartTextField.swift; sourceTree = "<group>"; };
+		OBJ_13 /* FormatSumTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatSumTextField.swift; sourceTree = "<group>"; };
+		OBJ_14 /* FormatTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatTextField.swift; sourceTree = "<group>"; };
+		OBJ_16 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		OBJ_19 /* AnyFormatKitSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyFormatKitSwiftUITests.swift; sourceTree = "<group>"; };
+		OBJ_20 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_70 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_71 /* AnyFormatKitSwiftUI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AnyFormatKitSwiftUI.podspec; sourceTree = "<group>"; };
+		OBJ_9 /* TextAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				3AE88D4302B3EF2C6AAE6782 /* Pods_AnyFormatKitSwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_143 /* AnyFormatKitSwiftUI.framework in Frameworks */,
+				7693F9109570D3E4DC2B3506 /* Pods_AnyFormatKitSwiftUI_AnyFormatKitSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B5987625CEA9510089FD80 /* Deployment */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_70 /* LICENSE */,
+				OBJ_71 /* AnyFormatKitSwiftUI.podspec */,
+			);
+			name = Deployment;
+			sourceTree = "<group>";
+		};
+		02B5987725CEA96D0089FD80 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				02B5987825CEA9830089FD80 /* README.md */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		3449285492D7A7B2B2155896 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0380CBF3E7AFB319E412C657 /* Pods_AnyFormatKitSwiftUI.framework */,
+				C6443E62212E04760F14B642 /* Pods_AnyFormatKitSwiftUI_AnyFormatKitSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		989A31C43FDB3DD81F19AC90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				908C3EE160C008024D8413E5 /* Pods-AnyFormatKitSwiftUI.debug.xcconfig */,
+				B43154714517F456EE082F91 /* Pods-AnyFormatKitSwiftUI.release.xcconfig */,
+				D8E6020F1370577B8ADE4CA8 /* Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests.debug.xcconfig */,
+				52CAFD8AA738EE76D3B5A452 /* Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		OBJ_11 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* FormatStartTextField.swift */,
+				OBJ_13 /* FormatSumTextField.swift */,
+				OBJ_14 /* FormatTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* UITextField+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_17 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* AnyFormatKitSwiftUITests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* AnyFormatKitSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* AnyFormatKitSwiftUITests.swift */,
+				OBJ_20 /* XCTestManifests.swift */,
+			);
+			name = AnyFormatKitSwiftUITests;
+			path = Tests/AnyFormatKitSwiftUITests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				02B5987725CEA96D0089FD80 /* Documentation */,
+				02B5987625CEA9510089FD80 /* Deployment */,
+				OBJ_7 /* Sources */,
+				OBJ_17 /* Tests */,
+				OBJ_64 /* Products */,
+				989A31C43FDB3DD81F19AC90 /* Pods */,
+				3449285492D7A7B2B2155896 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"AnyFormatKitSwiftUI::AnyFormatKitSwiftUI::Product" /* AnyFormatKitSwiftUI.framework */,
+				"AnyFormatKitSwiftUI::AnyFormatKitSwiftUITests::Product" /* AnyFormatKitSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Actions */,
+				OBJ_11 /* Components */,
+				OBJ_15 /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* TextAction.swift */,
+				OBJ_10 /* VoidAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"AnyFormatKitSwiftUI::AnyFormatKitSwiftUI" /* AnyFormatKitSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_111 /* Build configuration list for PBXNativeTarget "AnyFormatKitSwiftUI" */;
+			buildPhases = (
+				1792F652CB49D45CF667CB96 /* [CP] Check Pods Manifest.lock */,
+				OBJ_114 /* Sources */,
+				OBJ_121 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnyFormatKitSwiftUI;
+			productName = AnyFormatKitSwiftUI;
+			productReference = "AnyFormatKitSwiftUI::AnyFormatKitSwiftUI::Product" /* AnyFormatKitSwiftUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"AnyFormatKitSwiftUI::AnyFormatKitSwiftUITests" /* AnyFormatKitSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_136 /* Build configuration list for PBXNativeTarget "AnyFormatKitSwiftUITests" */;
+			buildPhases = (
+				B6B856CFA7A1B5D4D93D0580 /* [CP] Check Pods Manifest.lock */,
+				OBJ_139 /* Sources */,
+				OBJ_142 /* Frameworks */,
+				A6741491B74E0304806A004A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_145 /* PBXTargetDependency */,
+			);
+			name = AnyFormatKitSwiftUITests;
+			productName = AnyFormatKitSwiftUITests;
+			productReference = "AnyFormatKitSwiftUI::AnyFormatKitSwiftUITests::Product" /* AnyFormatKitSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "AnyFormatKitSwiftUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"AnyFormatKitSwiftUI::AnyFormatKitSwiftUI" /* AnyFormatKitSwiftUI */,
+				"AnyFormatKitSwiftUI::AnyFormatKitSwiftUITests" /* AnyFormatKitSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1792F652CB49D45CF667CB96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnyFormatKitSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6741491B74E0304806A004A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests/Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AnyFormatKit/AnyFormatKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnyFormatKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests/Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B856CFA7A1B5D4D93D0580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_115 /* TextAction.swift in Sources */,
+				OBJ_116 /* VoidAction.swift in Sources */,
+				OBJ_117 /* FormatStartTextField.swift in Sources */,
+				OBJ_118 /* FormatSumTextField.swift in Sources */,
+				OBJ_119 /* FormatTextField.swift in Sources */,
+				OBJ_120 /* UITextField+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_140 /* AnyFormatKitSwiftUITests.swift in Sources */,
+				OBJ_141 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "AnyFormatKitSwiftUI::AnyFormatKitSwiftUI" /* AnyFormatKitSwiftUI */;
+			targetProxy = 02B5984725CEA7C10089FD80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908C3EE160C008024D8413E5 /* Pods-AnyFormatKitSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AnyFormatKitSwiftUI.xcodeproj/AnyFormatKitSwiftUI_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 0.3.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = AnyFormatKitSwiftUI;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_NAME = AnyFormatKitSwiftUI;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43154714517F456EE082F91 /* Pods-AnyFormatKitSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AnyFormatKitSwiftUI.xcodeproj/AnyFormatKitSwiftUI_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 0.3.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = AnyFormatKitSwiftUI;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_NAME = AnyFormatKitSwiftUI;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E6020F1370577B8ADE4CA8 /* Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AnyFormatKitSwiftUI.xcodeproj/AnyFormatKitSwiftUITests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = AnyFormatKitSwiftUITests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CAFD8AA738EE76D3B5A452 /* Pods-AnyFormatKitSwiftUI-AnyFormatKitSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AnyFormatKitSwiftUI.xcodeproj/AnyFormatKitSwiftUITests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = AnyFormatKitSwiftUITests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_111 /* Build configuration list for PBXNativeTarget "AnyFormatKitSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_112 /* Debug */,
+				OBJ_113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_136 /* Build configuration list for PBXNativeTarget "AnyFormatKitSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_137 /* Debug */,
+				OBJ_138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "AnyFormatKitSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
