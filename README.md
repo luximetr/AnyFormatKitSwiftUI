@@ -7,7 +7,7 @@
 ![Swift](https://img.shields.io/badge/%20in-swift%205.0-brightgreen.svg)
 ![SwiftUI](https://img.shields.io/badge/%20in-swiftUI-brightgreen.svg)
 
-Text formatting framework written for SwiftUI.
+Text formatting framework written for SwiftUI and based on [AnyFormatKit](https://github.com/luximetr/AnyFormatKit).
 
 ## Demo
 
