@@ -1,0 +1,16 @@
+PODS:
+  - AnyFormatKit (2.4.0)
+
+DEPENDENCIES:
+  - AnyFormatKit (~> 2.4.0)
+
+SPEC REPOS:
+  trunk:
+    - AnyFormatKit
+
+SPEC CHECKSUMS:
+  AnyFormatKit: 2ca2ad3f6fa0f6862a650342141d2bcaa42e9186
+
+PODFILE CHECKSUM: 3d68565dddc442f891ff1fa9911e9d3df2c316a8
+
+COCOAPODS: 1.10.0

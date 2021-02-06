@@ -1,4 +1,5 @@
-![AnyFormatKitSwiftUI: Simple text formatting for SwiftUI](https://github.com/luximetr/AnyFormatKitSwiftUI/blob/develop/Assets/anyformatkitswiftui_logo.jpeg)
+![AnyFormatKit: Simple text formatting in Swift](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/anyformatkit.png)
+
 
 [![CI Status](http://img.shields.io/travis/luximetr/AnyFormatKit.svg?style=flat)](https://travis-ci.org/luximetr/AnyFormatKit)
 [![Version](https://img.shields.io/cocoapods/v/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
@@ -6,7 +7,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
 ![Swift](https://img.shields.io/badge/%20in-swift%205.0-brightgreen.svg)
 
-Text formatting framework written for SwiftUI.
+Text formatting framework written on Swift 5.0.
 
 ## Features
 
@@ -19,6 +20,11 @@ Text formatting framework written for SwiftUI.
 :heavy_dollar_sign:| Formatting money amount
 :parking:| Formatting with placeholders
 :seedling:| UITextField and UITextView support
+
+
+## Example
+
+To run the example project, clone the repo and run `pod install` from the Example directory first.
 
 ## Demo
 
@@ -122,4 +128,3 @@ luximetr, luximetr.notification@gmail.com
 ## License
 
 AnyFormatKit is available under the MIT license. See the LICENSE file for more info.
-
