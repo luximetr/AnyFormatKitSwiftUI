@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AnyFormatKitSwiftUI'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Simple text formatting in SwiftUI.'
 
   s.description      = <<-DESC
