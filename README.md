@@ -73,23 +73,21 @@ struct ContentView: View {
 
 For more details look [example](Example/SPMCheck/SPMCheck/ContentView.swift)
 
-### Formatter kinds
+### TextField types
 
-- `DefaultTextInputFormatter` - formatting [symbol by symbol](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_phone_number.gif)
-- `SumTextInputFormatter` - formatting like a [money format](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_sum.gif)
-- `PlaceholderTextInputFormatter` - formatting with all textPattern as [placeholder](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_placeholder_phone_number.gif)
+- `FormatTextField` - formatting [symbol by symbol](Assets/example_phone_number.gif)
+- `FormatSumTextField` - formatting like a [money format](Assets/example_sum.gif)
+- `FormatStartTextField` - formatting with all textPattern as [placeholder](Assets/example_placeholder_phone_number.gif)
 
 ## Features
 
 | |Features |
 |-------------------|------------------------------------------------------------|
-:performing_arts:| Convert string into formatted string and vice versa
 :bicyclist:| Formatting text during typing
 :hash:| Set format using '#' characters like '### ##-###'
 :stuck_out_tongue:| Supporting emojis
 :heavy_dollar_sign:| Formatting money amount
 :parking:| Formatting with placeholders
-:seedling:| UITextField and UITextView support
 
 ## Author
 
@@ -101,5 +99,5 @@ luximetr, luximetr.notification@gmail.com
 
 ## License
 
-AnyFormatKit is available under the MIT license. See the LICENSE file for more info.
+AnyFormatKitSwiftUI is available under the MIT license. See the LICENSE file for more info.
 
