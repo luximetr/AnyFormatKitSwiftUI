@@ -1,4 +1,4 @@
-![AnyFormatKitSwiftUI: Simple text formatting for SwiftUI](https://github.com/luximetr/AnyFormatKitSwiftUI/blob/develop/Assets/anyformatkitswiftui_logo.jpeg)
+![AnyFormatKitSwiftUI: Simple text formatting for SwiftUI](Assets/anyformatkitswiftui_logo.jpeg)
 
 [![CI Status](http://img.shields.io/travis/luximetr/AnyFormatKitSwiftUI.svg?style=flat)](https://travis-ci.org/luximetr/AnyFormatKitSwiftUI)
 [![Version](https://img.shields.io/cocoapods/v/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
