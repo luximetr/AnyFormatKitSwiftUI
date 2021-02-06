@@ -1,9 +1,10 @@
 ![AnyFormatKitSwiftUI: Simple text formatting for SwiftUI](Assets/anyformatkitswiftui_logo.jpeg)
 
 [![CI Status](http://img.shields.io/travis/luximetr/AnyFormatKitSwiftUI.svg?style=flat)](https://travis-ci.org/luximetr/AnyFormatKitSwiftUI)
-[![Version](https://img.shields.io/cocoapods/v/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
+[![Pod Version](https://img.shields.io/cocoapods/v/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
 [![License](https://img.shields.io/cocoapods/l/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
 [![Platform](https://img.shields.io/cocoapods/p/AnyFormatKitSwiftUI.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKitSwiftUI)
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 ![Swift](https://img.shields.io/badge/%20in-swift%205.0-brightgreen.svg)
 ![SwiftUI](https://img.shields.io/badge/%20in-swiftUI-brightgreen.svg)
 
