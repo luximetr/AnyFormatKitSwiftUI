@@ -18,3 +18,12 @@ notifications:
       - luximetr.notification@gmail.com
     on_success: always
     on_failure: always
+
+before_install:
+  - gem install cocoapods
+  - gem update concurrent-ruby
+  - pod setup
+
+script:
+  - pod install
+  - pod lib lint
