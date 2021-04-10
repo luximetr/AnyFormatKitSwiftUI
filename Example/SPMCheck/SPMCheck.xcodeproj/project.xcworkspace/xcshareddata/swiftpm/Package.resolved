@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/luximetr/AnyFormatKit",
         "state": {
           "branch": null,
-          "revision": "ff13418ca601ce6947161daade2ca58df5542499",
-          "version": "2.4.0"
+          "revision": "57a504266a54abf4b99e9c8f34b1f546894f93b7",
+          "version": "2.5.0"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/luximetr/AnyFormatKitSwiftUI",
         "state": {
           "branch": null,
-          "revision": "61735a0114f4aedd4114f1410205b75053afa861",
-          "version": "0.3.0"
+          "revision": "d9ec9442f8e06f2fe5b70e09ec1a540ad6edc207",
+          "version": "0.5.0"
         }
       }
     ]
