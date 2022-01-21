@@ -33,7 +33,8 @@ public struct FormatStartTextField: UIViewRepresentable {
     private var borderStyle: UITextField.BorderStyle = .none
     private var textAlignment: NSTextAlignment?
     private var keyboardType: UIKeyboardType = .default
-
+    private var textContentType: UITextContentType?
+    
     // MARK: - Private actions
 
     private var onEditingBeganHandler: TextAction?
@@ -79,6 +80,7 @@ public struct FormatStartTextField: UIViewRepresentable {
         uiView.borderStyle = borderStyle
         uiView.tintColor = accentColor
         uiView.keyboardType = keyboardType
+        uiView.textContentType = textContentType
         updateUIViewTextAlignment(uiView)
     }
 
@@ -218,6 +220,13 @@ public struct FormatStartTextField: UIViewRepresentable {
         return view
     }
 
+    // textContentType
+    public func textContentType(_ type: UITextContentType) -> Self {
+        var view = self
+        view.textContentType = type
+        return view
+    }
+    
     // MARK: - Actions
 
     public func onEditingBegan(perform action: TextAction?) -> Self {

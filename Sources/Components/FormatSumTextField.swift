@@ -32,6 +32,7 @@ public struct FormatSumTextField: UIViewRepresentable {
     private var borderStyle: UITextField.BorderStyle = .none
     private var textAlignment: NSTextAlignment?
     private var keyboardType: UIKeyboardType = .default
+    private var textContentType: UITextContentType?
     
     // MARK: - Private actions
     
@@ -106,6 +107,7 @@ public struct FormatSumTextField: UIViewRepresentable {
         uiView.borderStyle = borderStyle
         uiView.tintColor = accentColor
         uiView.keyboardType = keyboardType
+        uiView.textContentType = textContentType
         updateUIViewTextAlignment(uiView)
     }
     
@@ -242,6 +244,13 @@ public struct FormatSumTextField: UIViewRepresentable {
     public func keyboardType(_ type: UIKeyboardType) -> Self {
         var view = self
         view.keyboardType = type
+        return view
+    }
+    
+    // textContentType
+    public func textContentType(_ type: UITextContentType) -> Self {
+        var view = self
+        view.textContentType = type
         return view
     }
     
