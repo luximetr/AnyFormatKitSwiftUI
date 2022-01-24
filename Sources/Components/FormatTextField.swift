@@ -86,6 +86,7 @@ public struct FormatTextField: UIViewRepresentable {
         uiView.borderStyle = borderStyle
         uiView.tintColor = accentColor
         uiView.keyboardType = keyboardType
+        uiView.becomeFirstResponder()
         updateUIViewTextAlignment(uiView)
     }
     
