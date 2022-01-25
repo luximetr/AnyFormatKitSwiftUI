@@ -35,7 +35,7 @@ Once you have your Swift package set up, than simply add AnyFormatKitSwiftUI to 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/luximetr/AnyFormatKitSwiftUI.git", .upToNextMajor(from: "0.5.0"))
+    .package(url: "https://github.com/luximetr/AnyFormatKitSwiftUI.git", .upToNextMajor(from: "0.5.1"))
 ]
 ```
 
@@ -45,7 +45,7 @@ AnyFormatKitSwiftUI is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AnyFormatKitSwiftUI', '~> 0.5.0'
+pod 'AnyFormatKitSwiftUI', '~> 0.5.1'
 ```
 
 Then, run the following command:
