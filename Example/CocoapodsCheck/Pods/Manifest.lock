@@ -1,6 +1,6 @@
 PODS:
   - AnyFormatKit (2.5.2)
-  - AnyFormatKitSwiftUI (0.5.0):
+  - AnyFormatKitSwiftUI (0.5.1):
     - AnyFormatKit (~> 2.5.2)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AnyFormatKit: b0dbb2a5f2fe7a0fc97f401f8a219a47ee63a335
-  AnyFormatKitSwiftUI: 8a2bf917062de478270112f3cd4805349efbd25c
+  AnyFormatKitSwiftUI: 90f7e21b8cdc28143e022a876b459834ff0d8f56
 
 PODFILE CHECKSUM: a05453334068cdb33cc16ef7c4e453572c0c89ac
 
