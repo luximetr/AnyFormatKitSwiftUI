@@ -5,7 +5,7 @@ target 'AnyFormatKitSwiftUI' do
   
   use_frameworks!
 
-  pod 'AnyFormatKit', '~> 2.4.0'
+  pod 'AnyFormatKit', '~> 2.5.2'
 
   target 'AnyFormatKitSwiftUITests' do
     

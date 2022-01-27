@@ -16,5 +16,5 @@ This framework provide to format text with format like "## ##-###", where # - re
   s.swift_version = '5.0'
 
   s.source_files = 'Sources/**/*'
-  s.dependency 'AnyFormatKit', '~> 2.4.0'
+  s.dependency 'AnyFormatKit', '~> 2.5.2'
 end

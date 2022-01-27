@@ -1,16 +1,16 @@
 PODS:
-  - AnyFormatKit (2.4.0)
+  - AnyFormatKit (2.5.2)
 
 DEPENDENCIES:
-  - AnyFormatKit (~> 2.4.0)
+  - AnyFormatKit (~> 2.5.2)
 
 SPEC REPOS:
   trunk:
     - AnyFormatKit
 
 SPEC CHECKSUMS:
-  AnyFormatKit: 2ca2ad3f6fa0f6862a650342141d2bcaa42e9186
+  AnyFormatKit: b0dbb2a5f2fe7a0fc97f401f8a219a47ee63a335
 
-PODFILE CHECKSUM: 3d68565dddc442f891ff1fa9911e9d3df2c316a8
+PODFILE CHECKSUM: 06bc97233c0b35a9ec407476ceda6c1c4b5a225c
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1
