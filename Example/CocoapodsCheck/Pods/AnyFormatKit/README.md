@@ -1,10 +1,11 @@
-![AnyFormatKit: Simple text formatting in Swift](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/anyformatkit.png)
+![AnyFormatKit: Simple text formatting in Swift](Assets/anyformatkit.jpeg)
 
 
 [![CI Status](http://img.shields.io/travis/luximetr/AnyFormatKit.svg?style=flat)](https://travis-ci.org/luximetr/AnyFormatKit)
-[![Version](https://img.shields.io/cocoapods/v/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
+[![Pod Version](https://img.shields.io/cocoapods/v/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
 [![License](https://img.shields.io/cocoapods/l/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
 [![Platform](https://img.shields.io/cocoapods/p/AnyFormatKit.svg?style=flat)](http://cocoapods.org/pods/AnyFormatKit)
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 ![Swift](https://img.shields.io/badge/%20in-swift%205.0-brightgreen.svg)
 
 Text formatting framework written on Swift 5.0.
@@ -28,13 +29,13 @@ To run the example project, clone the repo and run `pod install` from the Exampl
 
 ## Demo
 
-![Phone number example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_phone_number.gif)
+![Phone number example](Assets/example_phone_number.gif)
 
-![Currency example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_sum.gif)
+![Currency example](Assets/example_sum.gif)
 
-![Card number example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_card_number.gif)
+![Card number example](Assets/example_card_number.gif)
 
-![Placeholder number number example](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_placeholder_phone_number.gif)
+![Placeholder number number example](Assets/example_placeholder_phone_number.gif)
 
 ## Requirements
 
@@ -42,11 +43,15 @@ To run the example project, clone the repo and run `pod install` from the Exampl
 - Swift 4.0+
 - Xcode 9.0+
 
+## SwiftUI
+
+AnyFormatKit has SwiftUI version, that exists as separate framework [AnyFormatKitSwiftUI](https://github.com/luximetr/AnyFormatKitSwiftUI)
+
 ## Migration Guides
 
-- [AnyFormatKit 0.2.0 MigrationGuide](https://github.com/luximetr/AnyFormatKit/blob/master/Documentation/AnyFormatKit%200.2.0%20MigrationGuide.md)
-- [AnyFormatKit 1.0.0 MigrationGuide](https://github.com/luximetr/AnyFormatKit/blob/master/Documentation/AnyFormatKit%201.0.0%20MigrationGuide.md)
-- [AnyFormatKit 2.4.0 MigrationGuide](https://github.com/luximetr/AnyFormatKit/blob/master/Documentation/AnyFormatKit%202.4.0%20MigrationGuide.md)
+- [AnyFormatKit 0.2.0 MigrationGuide](Documentation/AnyFormatKit%200.2.0%20MigrationGuide.md)
+- [AnyFormatKit 1.0.0 MigrationGuide](Documentation/AnyFormatKit%201.0.0%20MigrationGuide.md)
+- [AnyFormatKit 2.4.0 MigrationGuide](Documentation/AnyFormatKit%202.4.0%20MigrationGuide.md)
 
 ## Installation
 
@@ -56,7 +61,7 @@ AnyFormatKit is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AnyFormatKit', '~> 2.4.0'
+pod 'AnyFormatKit', '~> 2.5.2'
 ```
 
 Then, run the following command:
@@ -71,7 +76,7 @@ Once you have your Swift package set up, than simply add AnyFormatKit to the `de
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/luximetr/AnyFormatKit.git", .upToNextMajor(from: "2.4.0"))
+    .package(url: "https://github.com/luximetr/AnyFormatKit.git", .upToNextMajor(from: "2.5.2"))
 ]
 ```
 
@@ -109,13 +114,13 @@ textField.text = result.formattedText
 textField.setCursorLocation(result.caretBeginOffset)
 ```
 
-> You can find example of `setCursorLocation` [here](https://github.com/luximetr/AnyFormatKit/blob/develop/Source/Extensions/UITextField%2BExtension.swift) 
+> You can find example of `setCursorLocation` [here](Source/Extensions/UITextField%2BExtension.swift) 
 
 ### Formatter kinds
 
-- `DefaultTextInputFormatter` - formatting [symbol by symbol](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_phone_number.gif)
-- `SumTextInputFormatter` - formatting like a [money format](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_sum.gif)
-- `PlaceholderTextInputFormatter` - formatting with all textPattern as [placeholder](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/example_placeholder_phone_number.gif)
+- `DefaultTextInputFormatter` - formatting [symbol by symbol](Assets/example_phone_number.gif)
+- `SumTextInputFormatter` - formatting like a [money format](Assets/example_sum.gif)
+- `PlaceholderTextInputFormatter` - formatting with all textPattern as [placeholder](Assets/example_placeholder_phone_number.gif)
 
 ## Author
 

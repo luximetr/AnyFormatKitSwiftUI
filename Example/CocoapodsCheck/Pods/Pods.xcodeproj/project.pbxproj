@@ -3,140 +3,142 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B829B1029006B392088B155526076E /* DefaultTextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9634A85B9B2FF1B9E28F76A799DBD1DD /* DefaultTextInputFormatter.swift */; };
 		0940C9D3512F3AE300230DCBE5B191EF /* VoidAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064C4DE23CF9D217758BEBF80CF81392 /* VoidAction.swift */; };
-		0E8D2283FB687B02FB0945A8000FE34C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A57FF57C62B008FB26B0F3C33B60B9 /* Foundation.framework */; };
-		105AD01A9D564B7C88066CFB5508248E /* PlaceholderTextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F712D8487B54238F58EAE67C83AE30 /* PlaceholderTextInputFormatter.swift */; };
+		0F522767CD39CC342A0CF578FEA8C98C /* TextUnformatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A8A807D876529B84F459D6837DB422 /* TextUnformatter.swift */; };
 		1123B124669A40F88A3F32344EA72EBA /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A95CE69A104A5375945A55389E600 /* UITextField+Extension.swift */; };
+		240A77EE17E81A14ED156100BBD9EA9B /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59379B48C1228472F8361900BABC8A20 /* UITextView+Extension.swift */; };
+		2BEFFC54769B4B0C53ED93745B58866A /* SumTextInputFormatterCaretPositionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B99341E17A720B4FFCAFD00129BA7 /* SumTextInputFormatterCaretPositionCalculator.swift */; };
 		2D8C1BEC5497ED8135E58C86BE5C8CAE /* Pods-CocoapodsCheck-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F138B1D09B45888414B11D9EC81C5F37 /* Pods-CocoapodsCheck-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35EBE4FF1FBDBF1B09A05A2A1C38D1A3 /* Pods-CocoapodsCheck-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C80A93F6E602FD94170FDA6F4AB6B1D5 /* Pods-CocoapodsCheck-dummy.m */; };
-		3A57D241898D3EC6BB9C918DAF08822A /* TextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1BC6D9F54DDEFAFB383C5C4E8B696 /* TextInputFormatter.swift */; };
 		4007224FC1361DD90B66166B0DB52E03 /* TextAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B26756865BCFEA62FB81FC6B2289E75 /* TextAction.swift */; };
-		4273B3BBAF6DD2A15DC11AF694B5E71B /* SumTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E917D9651EFF6774F8350DBB119EA /* SumTextFormatter.swift */; };
-		42DCB2953CFDC49059B537E7B36CE69F /* CaretPositioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF09CFB57E7E71FDDC6B8C7BF9C13B /* CaretPositioner.swift */; };
 		434EA7301F6E0F8CD355BBC2AFE4F8DD /* AnyFormatKitSwiftUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2893E2A1FD9958AA998D2D3DDCF3CF8 /* AnyFormatKitSwiftUI-dummy.m */; };
 		43BF4EFAB35257AEA2C92691159C9C93 /* FormatSumTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2E777A8201F653C783FDE1E35EC0B /* FormatSumTextField.swift */; };
 		461BCBB451BC2EE9B7490796ED067E0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A57FF57C62B008FB26B0F3C33B60B9 /* Foundation.framework */; };
-		473131006B3BE76FDD617DC91797C09C /* PlaceholderCaretPositionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD572CF62F433BA5C3CA721451DE855E /* PlaceholderCaretPositionCalculator.swift */; };
-		4FF2D578F7883B65CE783C077C7DC54D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B19AA8CE98947F814B0685903D3EFB3 /* String+Extension.swift */; };
-		514F11CDE9F0CD534693E096D242AF80 /* PlaceholderTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708B083198B5677E273A281BBDC9197 /* PlaceholderTextFormatter.swift */; };
-		53D84EA100DC495DA62FFA6C85836AF2 /* SumFormatParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8655BC9FC2F799425D719FAC051F772 /* SumFormatParser.swift */; };
-		566A06D9638FEABF2CA119D5AD0E449C /* TextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F17CC597D6CD2CD4D32FCE8CA7F9 /* TextFormatter.swift */; };
-		59E4F9BCAA683B0410CF0AE14EB15AC1 /* TextUnformatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071AC1A6458EF14E02422BB93B06D71B /* TextUnformatter.swift */; };
+		4EE6D9263470CE90E1BA3988632CDC04 /* SumTextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DE118769366F9DDA799BD5A57EEF86 /* SumTextInputFormatter.swift */; };
+		51A74D8AC19CC18B8158DC68E3E4B008 /* PlaceholderCaretPositionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99A72B1E573B1F9AA0E42A21BC08F02 /* PlaceholderCaretPositionCalculator.swift */; };
 		5C4E7454DA945AB7E5C4C1DB3AF68ED0 /* FormatStartTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB5EA74EED4CC7601D9168A205CF0C /* FormatStartTextField.swift */; };
-		64DF1DA33EEA69FA2A1361C1D97AFCF7 /* AnyFormatKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE83C8A775CE8C3FB50233BCD4EE5CA /* AnyFormatKit-dummy.m */; };
-		72C3CD848C885A2C4E246B8891D34D8B /* TextFieldInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE4723B20F8A02B3D0FBD25E6796DCB /* TextFieldInputController.swift */; };
-		798CC2ABBDAB87234A0F384ACD84D6F2 /* SumTextInputFormatterCaretPositionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7497ED3E3C99F92D3D46BD76B3BA0019 /* SumTextInputFormatterCaretPositionCalculator.swift */; };
-		8401A7077174AE1E70B91804A5BE6C61 /* TextFieldStartInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CAEC18E258E8DC411106E9C160FE9 /* TextFieldStartInputController.swift */; };
-		8B01FA918FD04E022E98ACC2F7807C32 /* TextViewStartInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE065E5E1ECF702247C844D4ADDA669 /* TextViewStartInputController.swift */; };
-		94147C4420CA4A4CE14CBFDA060E10A9 /* CaretPositionCorrector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30776C346DE92C10C7C1B2E0EA50EBDE /* CaretPositionCorrector.swift */; };
-		94994FA521B6A917A3D3B22E6B990B45 /* FormattedTextValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D240938A119CB6DE78AD2FB07C2CC /* FormattedTextValue.swift */; };
+		67C27F2B583CC1192D5F1D39009D4049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A57FF57C62B008FB26B0F3C33B60B9 /* Foundation.framework */; };
+		6D4F609BD3AD9EF05EBD05011BFC0A8F /* DefaultCaretPositionCorrector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC126EA2D3BD41CA1C52B7ED0DAF31 /* DefaultCaretPositionCorrector.swift */; };
+		72163F321F3A375EC06CBDEA3762E6AA /* TextNumberUnformatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEB25C48A541F7250F9A7CF06A7A4F0 /* TextNumberUnformatter.swift */; };
+		7B3FBE8F527D1DD9BB235C56B7242995 /* DefaultRangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6FB15F73C390C3594054E435198186 /* DefaultRangeCalculator.swift */; };
+		81904878C6E78FE4966D74A3C5C1E3C0 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB56E49FF4088AEDF01FA71FB8ED385 /* UITextField+Extension.swift */; };
+		89A133149FB52392FC9B2BB11F1E54B0 /* AnyFormatKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B55F831E9E937F3DEA967CE2C2BAE021 /* AnyFormatKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		900C16CC748946BFD0634FC1126AF019 /* FormattedTextValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB0F444647756A043247AB23985AF69 /* FormattedTextValue.swift */; };
+		940CDA96AECB66EE63A4DCC94978C390 /* TextFieldStartInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DC2F0403242CCB1155CF7EB524F00F /* TextFieldStartInputController.swift */; };
 		95BEEF6A228E95859C86E98D3FFC676B /* AnyFormatKitSwiftUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DF585A13ADCDD44428073869024310 /* AnyFormatKitSwiftUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4458D536F7E3A6EBD1385374379188E /* AnyFormatKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 625F5391CD419623282793BE1FB2A828 /* AnyFormatKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E461D8A1B310F23A43A48F37570687 /* DefaultTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A0C1EA58BFF0459D7951BBDBCAEADE /* DefaultTextFormatter.swift */; };
+		98F1F628D380835A7606C869463AFD96 /* CaretPositioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E019B754486B94CC5330A76D6303F524 /* CaretPositioner.swift */; };
+		A3AE21C662F598978CE172528E17DFDE /* SumTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D8831091FAA5DB9855EEC39439280 /* SumTextFormatter.swift */; };
+		A7A3B529E8FF2FAC6049D227E2DBA3A6 /* PlaceholderTextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2A6073D75EB78DCEF480AE39C98080 /* PlaceholderTextInputFormatter.swift */; };
+		A99ABDCE9E1E7FCC4DD4F894CA974477 /* TextViewInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395EA988746560E71A5D3A6EA244470 /* TextViewInputController.swift */; };
 		ACD5EB6CEB62BF4A18F03576CAE99526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A57FF57C62B008FB26B0F3C33B60B9 /* Foundation.framework */; };
-		B22E7C743463982444602D65C77BD7FD /* TextNumberUnformatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A86BD12232E85E7E4C011C9E2A3AC6 /* TextNumberUnformatter.swift */; };
-		B72907C84FE85C68CD6E3812ECEAB0A9 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249F28485A4FE89CE8676E67EF161A6 /* UITextView+Extension.swift */; };
-		CF0196D047F6D22536DDF1BA8AD52BA7 /* DefaultTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C144F5173FA94C25DAE2AB2C7806383 /* DefaultTextFormatter.swift */; };
-		DB35436A92E41AFA0482F64D8E8D9B24 /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E0C1044ABF5F0A8F9A50AEB97B8EA /* StringCalculator.swift */; };
-		DDF5445DDB0A2A2ABCB9898FD593345A /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBDC140EE373982D1659A5C321086D0 /* UITextField+Extension.swift */; };
-		E999308344B25E4E3AAB60BBC1CCBD41 /* TextNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3281DC4CAAFA62CC55291A73648C03A /* TextNumberFormatter.swift */; };
+		AE9ACD75CD1532BC28FF9E8B3A3E0B2E /* AnyFormatKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8884093B494D8E68832C9A420F098392 /* AnyFormatKit-dummy.m */; };
+		B1C3A4D0523613F9EC146B517153AF1D /* PlaceholderTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6033B431F6AFBD8618CCCF960D8D83D8 /* PlaceholderTextFormatter.swift */; };
+		BEEF357E903246016CD5585DE6AE0679 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C426B1E7C73D962AE22E2427661E8C1 /* String+Extension.swift */; };
+		C409A89917BC85328850BBE8F03A7FEE /* TextFieldInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29781DB99A161127942C0BD2BC8DBD /* TextFieldInputController.swift */; };
+		C7F76668EC35C306F9A0F6F717360DDA /* TextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB7714FE604E74D7EC59F8B342139B0 /* TextInputFormatter.swift */; };
+		D8603DCE1EB29E65BF7DFDB305FFB3A0 /* PlaceholderRangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24DB0958FD9B4794145BA76CB2CEC13 /* PlaceholderRangeCalculator.swift */; };
+		DB270C8678EED2B7D68D4DD5BAC9E408 /* TextViewStartInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA610717DCAD68A425BD554D761D511 /* TextViewStartInputController.swift */; };
 		EAC86802A720BE356B93CEA1B00D42B0 /* AnyFormatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BF99460AD150313443A79B1398B475 /* AnyFormatKit.framework */; };
-		ED099C57E589F9EA8CC8322ACDBB9B8D /* TextViewInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D7E4BD564F164F10742D02A8CF82B /* TextViewInputController.swift */; };
 		EDE91133FD92CB9DF1A34FF8FFFFA4BF /* FormatTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A655CA6D58069809AACAFCE75CBC8 /* FormatTextField.swift */; };
-		F9F3397A8A6F7B5A9B332879DE27B105 /* SumTextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62CB81A8A06E5C37F0F2DC711C81229 /* SumTextInputFormatter.swift */; };
+		F09D9D2FA85F0EC6E8319CA9ACC9953F /* SumFormatParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630C9361A57CF43304B5A9118A3A9A4 /* SumFormatParser.swift */; };
+		F38AE9BF9DCE6FEFAFA7F2286D7A1867 /* TextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F173354240EFA6C33E3DE277A5F3E2 /* TextFormatter.swift */; };
+		F409E2C162AA7D326702FEF2BAC901EB /* DefaultTextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDDCC47C382C68BADFEB6C468B57B /* DefaultTextInputFormatter.swift */; };
+		F5B2562FD7A8F9697A1C3BFE89AFFBC1 /* TextNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF881F9ABB95D804968706BC35A9DC /* TextNumberFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		13B06335F0BCDA97B8056EAF36B7A416 /* PBXContainerItemProxy */ = {
+		0E72B5D6249101F51E0BD9FADB46B73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C07AD7DF8B0F18B7DB12F0D2C1F899D;
+			remoteInfo = AnyFormatKit;
+		};
+		93BF9414FE1007FF0A7BC15474BDA94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C07AD7DF8B0F18B7DB12F0D2C1F899D;
+			remoteInfo = AnyFormatKit;
+		};
+		F7923AAE766741CBB9911B706E3B7C95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A25A84CE14FDCA1B49A3CDDC4381057A;
 			remoteInfo = AnyFormatKitSwiftUI;
 		};
-		95B2779F6DCB4BB1ACF453E506E7DC4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8C07AD7DF8B0F18B7DB12F0D2C1F899D;
-			remoteInfo = AnyFormatKit;
-		};
-		D53408C69F86211563FDE5C898C3270E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8C07AD7DF8B0F18B7DB12F0D2C1F899D;
-			remoteInfo = AnyFormatKit;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019958E0A3B21AB3BAA2470202628F9D /* AnyFormatKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnyFormatKit.modulemap; sourceTree = "<group>"; };
+		05BF881F9ABB95D804968706BC35A9DC /* TextNumberFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNumberFormatter.swift; path = Source/TextFormatter/TextFormatter/TextNumberFormatter.swift; sourceTree = "<group>"; };
 		064C4DE23CF9D217758BEBF80CF81392 /* VoidAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoidAction.swift; sourceTree = "<group>"; };
-		071AC1A6458EF14E02422BB93B06D71B /* TextUnformatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextUnformatter.swift; path = Source/TextFormatter/TextFormatter/TextUnformatter.swift; sourceTree = "<group>"; };
 		07A57FF57C62B008FB26B0F3C33B60B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0B19AA8CE98947F814B0685903D3EFB3 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Source/Extensions/String+Extension.swift"; sourceTree = "<group>"; };
 		0BB25DEA73494DBA8FD0714614DA15C9 /* Pods-CocoapodsCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsCheck.release.xcconfig"; sourceTree = "<group>"; };
-		0CE065E5E1ECF702247C844D4ADDA669 /* TextViewStartInputController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewStartInputController.swift; path = Source/Controllers/TextViewControllers/TextViewStartInputController.swift; sourceTree = "<group>"; };
-		0E31ED2A43174B6C2CFC657338412B4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2249F28485A4FE89CE8676E67EF161A6 /* UITextView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Extension.swift"; path = "Source/Extensions/UITextView+Extension.swift"; sourceTree = "<group>"; };
-		2EE83C8A775CE8C3FB50233BCD4EE5CA /* AnyFormatKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnyFormatKit-dummy.m"; sourceTree = "<group>"; };
-		301B993371A1FB9C477D336D3AC2E703 /* AnyFormatKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnyFormatKit.modulemap; sourceTree = "<group>"; };
-		30776C346DE92C10C7C1B2E0EA50EBDE /* CaretPositionCorrector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaretPositionCorrector.swift; path = Source/TextFormatter/DefaultFormatters/Helpers/CaretPositionCorrector.swift; sourceTree = "<group>"; };
-		33615E7EAA821EA29BF0966BB60F1BAC /* AnyFormatKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyFormatKit.debug.xcconfig; sourceTree = "<group>"; };
-		33A86BD12232E85E7E4C011C9E2A3AC6 /* TextNumberUnformatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNumberUnformatter.swift; path = Source/TextFormatter/TextFormatter/TextNumberUnformatter.swift; sourceTree = "<group>"; };
-		353825B7C2A0B16AB67324AE48F8543A /* AnyFormatKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyFormatKit-prefix.pch"; sourceTree = "<group>"; };
+		0C426B1E7C73D962AE22E2427661E8C1 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Source/Extensions/String+Extension.swift"; sourceTree = "<group>"; };
+		0E31ED2A43174B6C2CFC657338412B4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1DB56E49FF4088AEDF01FA71FB8ED385 /* UITextField+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Extension.swift"; path = "Source/Extensions/UITextField+Extension.swift"; sourceTree = "<group>"; };
+		2395EA988746560E71A5D3A6EA244470 /* TextViewInputController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewInputController.swift; path = Source/Controllers/TextViewControllers/TextViewInputController.swift; sourceTree = "<group>"; };
+		34A342288B987DBA0CF5236A0107105B /* AnyFormatKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnyFormatKit-Info.plist"; sourceTree = "<group>"; };
+		34A8A807D876529B84F459D6837DB422 /* TextUnformatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextUnformatter.swift; path = Source/TextFormatter/TextFormatter/TextUnformatter.swift; sourceTree = "<group>"; };
 		3CD9A59C5A7752A9B41410198032582F /* AnyFormatKitSwiftUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnyFormatKitSwiftUI.modulemap; sourceTree = "<group>"; };
+		3EDC126EA2D3BD41CA1C52B7ED0DAF31 /* DefaultCaretPositionCorrector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultCaretPositionCorrector.swift; path = Source/TextFormatter/DefaultFormatters/Helpers/DefaultCaretPositionCorrector.swift; sourceTree = "<group>"; };
 		3FA3E72B13C3A32BA8AF4321A6BF4C65 /* AnyFormatKitSwiftUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyFormatKitSwiftUI-prefix.pch"; sourceTree = "<group>"; };
 		4250861C9CD3EA237E4CF4940545E52C /* Pods-CocoapodsCheck-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsCheck-frameworks.sh"; sourceTree = "<group>"; };
 		460539531AD8229E47A46B9EC13FDFA8 /* AnyFormatKitSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyFormatKitSwiftUI.debug.xcconfig; sourceTree = "<group>"; };
-		4708B083198B5677E273A281BBDC9197 /* PlaceholderTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderTextFormatter.swift; path = Source/TextFormatter/PlaceholderFormatters/Formatters/PlaceholderTextFormatter.swift; sourceTree = "<group>"; };
-		482D0208C88303449D1720FAC1676983 /* AnyFormatKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnyFormatKit-Info.plist"; sourceTree = "<group>"; };
-		53601480468DB6132589CBBBBECE34BF /* AnyFormatKitSwiftUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnyFormatKitSwiftUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		528498A591829B61AB84AD220D8FE0D4 /* AnyFormatKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyFormatKit.debug.xcconfig; sourceTree = "<group>"; };
+		53601480468DB6132589CBBBBECE34BF /* AnyFormatKitSwiftUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AnyFormatKitSwiftUI.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		569A655CA6D58069809AACAFCE75CBC8 /* FormatTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormatTextField.swift; sourceTree = "<group>"; };
 		5736DD18128E59EADA3B4992A77C951D /* AnyFormatKitSwiftUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnyFormatKitSwiftUI-Info.plist"; sourceTree = "<group>"; };
-		57FF09CFB57E7E71FDDC6B8C7BF9C13B /* CaretPositioner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaretPositioner.swift; path = Source/TextFormatter/TextFormatter/CaretPositioner.swift; sourceTree = "<group>"; };
+		59379B48C1228472F8361900BABC8A20 /* UITextView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Extension.swift"; path = "Source/Extensions/UITextView+Extension.swift"; sourceTree = "<group>"; };
 		5BD58A3B9BFE8277BA5D2F1D0621AF39 /* Pods-CocoapodsCheck-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoapodsCheck-acknowledgements.markdown"; sourceTree = "<group>"; };
-		625F5391CD419623282793BE1FB2A828 /* AnyFormatKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyFormatKit-umbrella.h"; sourceTree = "<group>"; };
+		6033B431F6AFBD8618CCCF960D8D83D8 /* PlaceholderTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderTextFormatter.swift; path = Source/TextFormatter/PlaceholderFormatters/Formatters/PlaceholderTextFormatter.swift; sourceTree = "<group>"; };
 		6B26756865BCFEA62FB81FC6B2289E75 /* TextAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextAction.swift; sourceTree = "<group>"; };
-		73F6D6395A65C442BDF0912FD4DED989 /* AnyFormatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnyFormatKit.framework; path = AnyFormatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7497ED3E3C99F92D3D46BD76B3BA0019 /* SumTextInputFormatterCaretPositionCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumTextInputFormatterCaretPositionCalculator.swift; path = Source/TextFormatter/SumFormatters/Helpers/SumTextInputFormatterCaretPositionCalculator.swift; sourceTree = "<group>"; };
-		7B756646824E92D3E7908808609CD1EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7C144F5173FA94C25DAE2AB2C7806383 /* DefaultTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultTextFormatter.swift; path = Source/TextFormatter/DefaultFormatters/Formatters/DefaultTextFormatter.swift; sourceTree = "<group>"; };
+		71DC2F0403242CCB1155CF7EB524F00F /* TextFieldStartInputController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldStartInputController.swift; path = Source/Controllers/TextFieldControllers/TextFieldStartInputController.swift; sourceTree = "<group>"; };
+		73F6D6395A65C442BDF0912FD4DED989 /* AnyFormatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyFormatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B756646824E92D3E7908808609CD1EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7C2A95CE69A104A5375945A55389E600 /* UITextField+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
-		843E917D9651EFF6774F8350DBB119EA /* SumTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumTextFormatter.swift; path = Source/TextFormatter/SumFormatters/Formatters/SumTextFormatter.swift; sourceTree = "<group>"; };
+		7EB0F444647756A043247AB23985AF69 /* FormattedTextValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormattedTextValue.swift; path = Source/TextFormatter/TextFormatter/FormattedTextValue.swift; sourceTree = "<group>"; };
+		8884093B494D8E68832C9A420F098392 /* AnyFormatKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnyFormatKit-dummy.m"; sourceTree = "<group>"; };
 		89F2E777A8201F653C783FDE1E35EC0B /* FormatSumTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormatSumTextField.swift; sourceTree = "<group>"; };
-		8ECA9BC220B1AF56D0FA305CC49C124F /* AnyFormatKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyFormatKit.release.xcconfig; sourceTree = "<group>"; };
-		9634A85B9B2FF1B9E28F76A799DBD1DD /* DefaultTextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultTextInputFormatter.swift; path = Source/TextFormatter/DefaultFormatters/Formatters/DefaultTextInputFormatter.swift; sourceTree = "<group>"; };
+		8A29781DB99A161127942C0BD2BC8DBD /* TextFieldInputController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldInputController.swift; path = Source/Controllers/TextFieldControllers/TextFieldInputController.swift; sourceTree = "<group>"; };
+		8C5B99341E17A720B4FFCAFD00129BA7 /* SumTextInputFormatterCaretPositionCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumTextInputFormatterCaretPositionCalculator.swift; path = Source/TextFormatter/SumFormatters/Helpers/SumTextInputFormatterCaretPositionCalculator.swift; sourceTree = "<group>"; };
 		978DE81D2183144C24A0D459E0118F3E /* Pods-CocoapodsCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsCheck.debug.xcconfig"; sourceTree = "<group>"; };
-		9AE4723B20F8A02B3D0FBD25E6796DCB /* TextFieldInputController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldInputController.swift; path = Source/Controllers/TextFieldControllers/TextFieldInputController.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A14CAEC18E258E8DC411106E9C160FE9 /* TextFieldStartInputController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldStartInputController.swift; path = Source/Controllers/TextFieldControllers/TextFieldStartInputController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6FB15F73C390C3594054E435198186 /* DefaultRangeCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultRangeCalculator.swift; path = Source/TextFormatter/DefaultFormatters/Helpers/DefaultRangeCalculator.swift; sourceTree = "<group>"; };
 		A3DF585A13ADCDD44428073869024310 /* AnyFormatKitSwiftUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyFormatKitSwiftUI-umbrella.h"; sourceTree = "<group>"; };
-		ABBDC140EE373982D1659A5C321086D0 /* UITextField+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Extension.swift"; path = "Source/Extensions/UITextField+Extension.swift"; sourceTree = "<group>"; };
-		AD572CF62F433BA5C3CA721451DE855E /* PlaceholderCaretPositionCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderCaretPositionCalculator.swift; path = Source/TextFormatter/PlaceholderFormatters/Helpers/PlaceholderCaretPositionCalculator.swift; sourceTree = "<group>"; };
-		B20D240938A119CB6DE78AD2FB07C2CC /* FormattedTextValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormattedTextValue.swift; path = Source/TextFormatter/TextFormatter/FormattedTextValue.swift; sourceTree = "<group>"; };
+		B27D8831091FAA5DB9855EEC39439280 /* SumTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumTextFormatter.swift; path = Source/TextFormatter/SumFormatters/Formatters/SumTextFormatter.swift; sourceTree = "<group>"; };
 		B2893E2A1FD9958AA998D2D3DDCF3CF8 /* AnyFormatKitSwiftUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnyFormatKitSwiftUI-dummy.m"; sourceTree = "<group>"; };
+		B55F831E9E937F3DEA967CE2C2BAE021 /* AnyFormatKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyFormatKit-umbrella.h"; sourceTree = "<group>"; };
+		B630C9361A57CF43304B5A9118A3A9A4 /* SumFormatParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumFormatParser.swift; path = Source/TextFormatter/SumFormatters/Helpers/SumFormatParser.swift; sourceTree = "<group>"; };
+		BAA610717DCAD68A425BD554D761D511 /* TextViewStartInputController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewStartInputController.swift; path = Source/Controllers/TextViewControllers/TextViewStartInputController.swift; sourceTree = "<group>"; };
 		BE0644E3D0897E191578A3B3098168BA /* Pods-CocoapodsCheck-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoapodsCheck-acknowledgements.plist"; sourceTree = "<group>"; };
 		C1BF99460AD150313443A79B1398B475 /* AnyFormatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyFormatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C22D7E4BD564F164F10742D02A8CF82B /* TextViewInputController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewInputController.swift; path = Source/Controllers/TextViewControllers/TextViewInputController.swift; sourceTree = "<group>"; };
+		C4F173354240EFA6C33E3DE277A5F3E2 /* TextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatter.swift; path = Source/TextFormatter/TextFormatter/TextFormatter.swift; sourceTree = "<group>"; };
 		C80A93F6E602FD94170FDA6F4AB6B1D5 /* Pods-CocoapodsCheck-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoapodsCheck-dummy.m"; sourceTree = "<group>"; };
-		CEF1BC6D9F54DDEFAFB383C5C4E8B696 /* TextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInputFormatter.swift; path = Source/TextFormatter/TextFormatter/TextInputFormatter.swift; sourceTree = "<group>"; };
+		CBB7714FE604E74D7EC59F8B342139B0 /* TextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInputFormatter.swift; path = Source/TextFormatter/TextFormatter/TextInputFormatter.swift; sourceTree = "<group>"; };
 		D3C03E518D127E25E9D8D4F8FBF8E96F /* Pods-CocoapodsCheck-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoapodsCheck-Info.plist"; sourceTree = "<group>"; };
-		D3F712D8487B54238F58EAE67C83AE30 /* PlaceholderTextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderTextInputFormatter.swift; path = Source/TextFormatter/PlaceholderFormatters/Formatters/PlaceholderTextInputFormatter.swift; sourceTree = "<group>"; };
-		D8655BC9FC2F799425D719FAC051F772 /* SumFormatParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumFormatParser.swift; path = Source/TextFormatter/SumFormatters/Helpers/SumFormatParser.swift; sourceTree = "<group>"; };
-		D986F17CC597D6CD2CD4D32FCE8CA7F9 /* TextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatter.swift; path = Source/TextFormatter/TextFormatter/TextFormatter.swift; sourceTree = "<group>"; };
-		E3281DC4CAAFA62CC55291A73648C03A /* TextNumberFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNumberFormatter.swift; path = Source/TextFormatter/TextFormatter/TextNumberFormatter.swift; sourceTree = "<group>"; };
-		E62CB81A8A06E5C37F0F2DC711C81229 /* SumTextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumTextInputFormatter.swift; path = Source/TextFormatter/SumFormatters/Formatters/SumTextInputFormatter.swift; sourceTree = "<group>"; };
-		E68545514F04B54EB7D6E8AB612BA4C9 /* AnyFormatKitSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnyFormatKitSwiftUI.framework; path = AnyFormatKitSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F01E0C1044ABF5F0A8F9A50AEB97B8EA /* StringCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringCalculator.swift; path = Source/TextFormatter/DefaultFormatters/Helpers/StringCalculator.swift; sourceTree = "<group>"; };
+		D99A72B1E573B1F9AA0E42A21BC08F02 /* PlaceholderCaretPositionCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderCaretPositionCalculator.swift; path = Source/TextFormatter/PlaceholderFormatters/Helpers/PlaceholderCaretPositionCalculator.swift; sourceTree = "<group>"; };
+		D9EEDDCC47C382C68BADFEB6C468B57B /* DefaultTextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultTextInputFormatter.swift; path = Source/TextFormatter/DefaultFormatters/Formatters/DefaultTextInputFormatter.swift; sourceTree = "<group>"; };
+		E019B754486B94CC5330A76D6303F524 /* CaretPositioner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaretPositioner.swift; path = Source/TextFormatter/TextFormatter/CaretPositioner.swift; sourceTree = "<group>"; };
+		E24DB0958FD9B4794145BA76CB2CEC13 /* PlaceholderRangeCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderRangeCalculator.swift; path = Source/TextFormatter/PlaceholderFormatters/Helpers/PlaceholderRangeCalculator.swift; sourceTree = "<group>"; };
+		E68545514F04B54EB7D6E8AB612BA4C9 /* AnyFormatKitSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyFormatKitSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2A6073D75EB78DCEF480AE39C98080 /* PlaceholderTextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderTextInputFormatter.swift; path = Source/TextFormatter/PlaceholderFormatters/Formatters/PlaceholderTextInputFormatter.swift; sourceTree = "<group>"; };
 		F138B1D09B45888414B11D9EC81C5F37 /* Pods-CocoapodsCheck-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoapodsCheck-umbrella.h"; sourceTree = "<group>"; };
 		F4BB5EA74EED4CC7601D9168A205CF0C /* FormatStartTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormatStartTextField.swift; sourceTree = "<group>"; };
-		F5DA7B31940F551586116751D451F9B6 /* Pods_CocoapodsCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CocoapodsCheck.framework; path = "Pods-CocoapodsCheck.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DA7B31940F551586116751D451F9B6 /* Pods_CocoapodsCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoapodsCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DE118769366F9DDA799BD5A57EEF86 /* SumTextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumTextInputFormatter.swift; path = Source/TextFormatter/SumFormatters/Formatters/SumTextInputFormatter.swift; sourceTree = "<group>"; };
 		F9676A6ADC83E6F767A8C932BDE2474C /* AnyFormatKitSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyFormatKitSwiftUI.release.xcconfig; sourceTree = "<group>"; };
+		F9A0C1EA58BFF0459D7951BBDBCAEADE /* DefaultTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultTextFormatter.swift; path = Source/TextFormatter/DefaultFormatters/Formatters/DefaultTextFormatter.swift; sourceTree = "<group>"; };
+		FA29C630F2AC57BF74518672D55767ED /* AnyFormatKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyFormatKit-prefix.pch"; sourceTree = "<group>"; };
+		FAEB25C48A541F7250F9A7CF06A7A4F0 /* TextNumberUnformatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNumberUnformatter.swift; path = Source/TextFormatter/TextFormatter/TextNumberUnformatter.swift; sourceTree = "<group>"; };
+		FC229A2A6B8329EEEC1EBE711927645C /* AnyFormatKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyFormatKit.release.xcconfig; sourceTree = "<group>"; };
 		FC286313558B5A53D887D6DFA7A05B06 /* Pods-CocoapodsCheck.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CocoapodsCheck.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,11 +160,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8B8C177EFD1F646A596D24FE302DF23 /* Frameworks */ = {
+		D737D572E057A1768EF70578644048BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E8D2283FB687B02FB0945A8000FE34C /* Foundation.framework in Frameworks */,
+				67C27F2B583CC1192D5F1D39009D4049 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +204,14 @@
 				103608366394AA5C232B1E77E5BA5000 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		619BA6E2FBF908FE65BE503A38487D2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9B76515C86EAE886E5F315E8462A983 /* AnyFormatKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		6C605B5B52AA90F226B1F4FAC2F85238 /* Support Files */ = {
@@ -249,40 +259,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		999D284896F9DC6DB3FED4213867AA63 /* AnyFormatKit */ = {
-			isa = PBXGroup;
-			children = (
-				30776C346DE92C10C7C1B2E0EA50EBDE /* CaretPositionCorrector.swift */,
-				57FF09CFB57E7E71FDDC6B8C7BF9C13B /* CaretPositioner.swift */,
-				7C144F5173FA94C25DAE2AB2C7806383 /* DefaultTextFormatter.swift */,
-				9634A85B9B2FF1B9E28F76A799DBD1DD /* DefaultTextInputFormatter.swift */,
-				B20D240938A119CB6DE78AD2FB07C2CC /* FormattedTextValue.swift */,
-				AD572CF62F433BA5C3CA721451DE855E /* PlaceholderCaretPositionCalculator.swift */,
-				4708B083198B5677E273A281BBDC9197 /* PlaceholderTextFormatter.swift */,
-				D3F712D8487B54238F58EAE67C83AE30 /* PlaceholderTextInputFormatter.swift */,
-				0B19AA8CE98947F814B0685903D3EFB3 /* String+Extension.swift */,
-				F01E0C1044ABF5F0A8F9A50AEB97B8EA /* StringCalculator.swift */,
-				D8655BC9FC2F799425D719FAC051F772 /* SumFormatParser.swift */,
-				843E917D9651EFF6774F8350DBB119EA /* SumTextFormatter.swift */,
-				E62CB81A8A06E5C37F0F2DC711C81229 /* SumTextInputFormatter.swift */,
-				7497ED3E3C99F92D3D46BD76B3BA0019 /* SumTextInputFormatterCaretPositionCalculator.swift */,
-				9AE4723B20F8A02B3D0FBD25E6796DCB /* TextFieldInputController.swift */,
-				A14CAEC18E258E8DC411106E9C160FE9 /* TextFieldStartInputController.swift */,
-				D986F17CC597D6CD2CD4D32FCE8CA7F9 /* TextFormatter.swift */,
-				CEF1BC6D9F54DDEFAFB383C5C4E8B696 /* TextInputFormatter.swift */,
-				E3281DC4CAAFA62CC55291A73648C03A /* TextNumberFormatter.swift */,
-				33A86BD12232E85E7E4C011C9E2A3AC6 /* TextNumberUnformatter.swift */,
-				071AC1A6458EF14E02422BB93B06D71B /* TextUnformatter.swift */,
-				C22D7E4BD564F164F10742D02A8CF82B /* TextViewInputController.swift */,
-				0CE065E5E1ECF702247C844D4ADDA669 /* TextViewStartInputController.swift */,
-				ABBDC140EE373982D1659A5C321086D0 /* UITextField+Extension.swift */,
-				2249F28485A4FE89CE8676E67EF161A6 /* UITextView+Extension.swift */,
-				F2FB350EE7C233A194F4F74B38A4AC38 /* Support Files */,
-			);
-			name = AnyFormatKit;
-			path = AnyFormatKit;
-			sourceTree = "<group>";
-		};
 		9AB3227BD1EFBEC555F19C10B706BFCF /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,12 +270,19 @@
 			path = Sources/Components;
 			sourceTree = "<group>";
 		};
-		B64CB8C763BFC3AE0DB6F5FA4C19C1E0 /* Pods */ = {
+		B63F30DEF9F2C73846A983328A84BDA7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				999D284896F9DC6DB3FED4213867AA63 /* AnyFormatKit */,
+				019958E0A3B21AB3BAA2470202628F9D /* AnyFormatKit.modulemap */,
+				8884093B494D8E68832C9A420F098392 /* AnyFormatKit-dummy.m */,
+				34A342288B987DBA0CF5236A0107105B /* AnyFormatKit-Info.plist */,
+				FA29C630F2AC57BF74518672D55767ED /* AnyFormatKit-prefix.pch */,
+				B55F831E9E937F3DEA967CE2C2BAE021 /* AnyFormatKit-umbrella.h */,
+				528498A591829B61AB84AD220D8FE0D4 /* AnyFormatKit.debug.xcconfig */,
+				FC229A2A6B8329EEEC1EBE711927645C /* AnyFormatKit.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/AnyFormatKit";
 			sourceTree = "<group>";
 		};
 		B7046811F77C2CDB96A1D83105F0D4FF /* Pods-CocoapodsCheck */ = {
@@ -325,7 +308,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				8F8AEA448F20E7E138DFDC319D1F3FB3 /* Development Pods */,
 				3A3EF2E8912AED8E4BB499D5666D4CBB /* Frameworks */,
-				B64CB8C763BFC3AE0DB6F5FA4C19C1E0 /* Pods */,
+				619BA6E2FBF908FE65BE503A38487D2B /* Pods */,
 				2C756AD8A06AE353A374A1511522C543 /* Products */,
 				1EA0295AA5B34CB7945B709F98256815 /* Targets Support Files */,
 			);
@@ -341,6 +324,40 @@
 			path = Sources/Actions;
 			sourceTree = "<group>";
 		};
+		D9B76515C86EAE886E5F315E8462A983 /* AnyFormatKit */ = {
+			isa = PBXGroup;
+			children = (
+				E019B754486B94CC5330A76D6303F524 /* CaretPositioner.swift */,
+				3EDC126EA2D3BD41CA1C52B7ED0DAF31 /* DefaultCaretPositionCorrector.swift */,
+				9F6FB15F73C390C3594054E435198186 /* DefaultRangeCalculator.swift */,
+				F9A0C1EA58BFF0459D7951BBDBCAEADE /* DefaultTextFormatter.swift */,
+				D9EEDDCC47C382C68BADFEB6C468B57B /* DefaultTextInputFormatter.swift */,
+				7EB0F444647756A043247AB23985AF69 /* FormattedTextValue.swift */,
+				D99A72B1E573B1F9AA0E42A21BC08F02 /* PlaceholderCaretPositionCalculator.swift */,
+				E24DB0958FD9B4794145BA76CB2CEC13 /* PlaceholderRangeCalculator.swift */,
+				6033B431F6AFBD8618CCCF960D8D83D8 /* PlaceholderTextFormatter.swift */,
+				ED2A6073D75EB78DCEF480AE39C98080 /* PlaceholderTextInputFormatter.swift */,
+				0C426B1E7C73D962AE22E2427661E8C1 /* String+Extension.swift */,
+				B630C9361A57CF43304B5A9118A3A9A4 /* SumFormatParser.swift */,
+				B27D8831091FAA5DB9855EEC39439280 /* SumTextFormatter.swift */,
+				F7DE118769366F9DDA799BD5A57EEF86 /* SumTextInputFormatter.swift */,
+				8C5B99341E17A720B4FFCAFD00129BA7 /* SumTextInputFormatterCaretPositionCalculator.swift */,
+				8A29781DB99A161127942C0BD2BC8DBD /* TextFieldInputController.swift */,
+				71DC2F0403242CCB1155CF7EB524F00F /* TextFieldStartInputController.swift */,
+				C4F173354240EFA6C33E3DE277A5F3E2 /* TextFormatter.swift */,
+				CBB7714FE604E74D7EC59F8B342139B0 /* TextInputFormatter.swift */,
+				05BF881F9ABB95D804968706BC35A9DC /* TextNumberFormatter.swift */,
+				FAEB25C48A541F7250F9A7CF06A7A4F0 /* TextNumberUnformatter.swift */,
+				34A8A807D876529B84F459D6837DB422 /* TextUnformatter.swift */,
+				2395EA988746560E71A5D3A6EA244470 /* TextViewInputController.swift */,
+				BAA610717DCAD68A425BD554D761D511 /* TextViewStartInputController.swift */,
+				1DB56E49FF4088AEDF01FA71FB8ED385 /* UITextField+Extension.swift */,
+				59379B48C1228472F8361900BABC8A20 /* UITextView+Extension.swift */,
+				B63F30DEF9F2C73846A983328A84BDA7 /* Support Files */,
+			);
+			path = AnyFormatKit;
+			sourceTree = "<group>";
+		};
 		E3A71BD7CE8ABC3C6ADAD720839B6E9E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,24 +368,17 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		F2FB350EE7C233A194F4F74B38A4AC38 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				301B993371A1FB9C477D336D3AC2E703 /* AnyFormatKit.modulemap */,
-				2EE83C8A775CE8C3FB50233BCD4EE5CA /* AnyFormatKit-dummy.m */,
-				482D0208C88303449D1720FAC1676983 /* AnyFormatKit-Info.plist */,
-				353825B7C2A0B16AB67324AE48F8543A /* AnyFormatKit-prefix.pch */,
-				625F5391CD419623282793BE1FB2A828 /* AnyFormatKit-umbrella.h */,
-				33615E7EAA821EA29BF0966BB60F1BAC /* AnyFormatKit.debug.xcconfig */,
-				8ECA9BC220B1AF56D0FA305CC49C124F /* AnyFormatKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AnyFormatKit";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6F20C3E50161084A38193CB922CEBC23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A133149FB52392FC9B2BB11F1E54B0 /* AnyFormatKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82B54072A45BED1D89C4938B885088FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,14 +392,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				95BEEF6A228E95859C86E98D3FFC676B /* AnyFormatKitSwiftUI-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8D91F765F7244F05A3EFDA2FB3A1AFA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4458D536F7E3A6EBD1385374379188E /* AnyFormatKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +410,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				019E8AA0ECB250F2A05EC796E784DC67 /* PBXTargetDependency */,
-				F9EF4878E983339DF6C79F0BB699D6B6 /* PBXTargetDependency */,
+				263E126D9D3040C1D2CC5C2422072A9D /* PBXTargetDependency */,
+				BAD098BDF82E51CC84AA335C9EF7CE2B /* PBXTargetDependency */,
 			);
 			name = "Pods-CocoapodsCheck";
 			productName = "Pods-CocoapodsCheck";
@@ -418,12 +420,12 @@
 		};
 		8C07AD7DF8B0F18B7DB12F0D2C1F899D /* AnyFormatKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28B31DB29AF907AB0441E388CB7071E1 /* Build configuration list for PBXNativeTarget "AnyFormatKit" */;
+			buildConfigurationList = C4BAF8046741D7A4F90F4BB3A41E1983 /* Build configuration list for PBXNativeTarget "AnyFormatKit" */;
 			buildPhases = (
-				E8D91F765F7244F05A3EFDA2FB3A1AFA /* Headers */,
-				796E3ACEA7FF82679B6B03D5341BFA02 /* Sources */,
-				C8B8C177EFD1F646A596D24FE302DF23 /* Frameworks */,
-				83940C642A8CE68808F57E8015F9FCBC /* Resources */,
+				6F20C3E50161084A38193CB922CEBC23 /* Headers */,
+				FBD142CC764917833471C2BDDA7363C9 /* Sources */,
+				D737D572E057A1768EF70578644048BD /* Frameworks */,
+				9E73894547533C79EC8A57985A64B64F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -446,7 +448,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7E379539F29A42BDD9D752912A1A9971 /* PBXTargetDependency */,
+				36BA00827EADCD2FAB6A92718D95849B /* PBXTargetDependency */,
 			);
 			name = AnyFormatKitSwiftUI;
 			productName = AnyFormatKitSwiftUI;
@@ -463,7 +465,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -490,14 +492,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83940C642A8CE68808F57E8015F9FCBC /* Resources */ = {
+		89FDBF66E4590ACC4CF1E94DB0FC7A3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89FDBF66E4590ACC4CF1E94DB0FC7A3C /* Resources */ = {
+		9E73894547533C79EC8A57985A64B64F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -529,59 +531,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		796E3ACEA7FF82679B6B03D5341BFA02 /* Sources */ = {
+		FBD142CC764917833471C2BDDA7363C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64DF1DA33EEA69FA2A1361C1D97AFCF7 /* AnyFormatKit-dummy.m in Sources */,
-				94147C4420CA4A4CE14CBFDA060E10A9 /* CaretPositionCorrector.swift in Sources */,
-				42DCB2953CFDC49059B537E7B36CE69F /* CaretPositioner.swift in Sources */,
-				CF0196D047F6D22536DDF1BA8AD52BA7 /* DefaultTextFormatter.swift in Sources */,
-				01B829B1029006B392088B155526076E /* DefaultTextInputFormatter.swift in Sources */,
-				94994FA521B6A917A3D3B22E6B990B45 /* FormattedTextValue.swift in Sources */,
-				473131006B3BE76FDD617DC91797C09C /* PlaceholderCaretPositionCalculator.swift in Sources */,
-				514F11CDE9F0CD534693E096D242AF80 /* PlaceholderTextFormatter.swift in Sources */,
-				105AD01A9D564B7C88066CFB5508248E /* PlaceholderTextInputFormatter.swift in Sources */,
-				4FF2D578F7883B65CE783C077C7DC54D /* String+Extension.swift in Sources */,
-				DB35436A92E41AFA0482F64D8E8D9B24 /* StringCalculator.swift in Sources */,
-				53D84EA100DC495DA62FFA6C85836AF2 /* SumFormatParser.swift in Sources */,
-				4273B3BBAF6DD2A15DC11AF694B5E71B /* SumTextFormatter.swift in Sources */,
-				F9F3397A8A6F7B5A9B332879DE27B105 /* SumTextInputFormatter.swift in Sources */,
-				798CC2ABBDAB87234A0F384ACD84D6F2 /* SumTextInputFormatterCaretPositionCalculator.swift in Sources */,
-				72C3CD848C885A2C4E246B8891D34D8B /* TextFieldInputController.swift in Sources */,
-				8401A7077174AE1E70B91804A5BE6C61 /* TextFieldStartInputController.swift in Sources */,
-				566A06D9638FEABF2CA119D5AD0E449C /* TextFormatter.swift in Sources */,
-				3A57D241898D3EC6BB9C918DAF08822A /* TextInputFormatter.swift in Sources */,
-				E999308344B25E4E3AAB60BBC1CCBD41 /* TextNumberFormatter.swift in Sources */,
-				B22E7C743463982444602D65C77BD7FD /* TextNumberUnformatter.swift in Sources */,
-				59E4F9BCAA683B0410CF0AE14EB15AC1 /* TextUnformatter.swift in Sources */,
-				ED099C57E589F9EA8CC8322ACDBB9B8D /* TextViewInputController.swift in Sources */,
-				8B01FA918FD04E022E98ACC2F7807C32 /* TextViewStartInputController.swift in Sources */,
-				DDF5445DDB0A2A2ABCB9898FD593345A /* UITextField+Extension.swift in Sources */,
-				B72907C84FE85C68CD6E3812ECEAB0A9 /* UITextView+Extension.swift in Sources */,
+				AE9ACD75CD1532BC28FF9E8B3A3E0B2E /* AnyFormatKit-dummy.m in Sources */,
+				98F1F628D380835A7606C869463AFD96 /* CaretPositioner.swift in Sources */,
+				6D4F609BD3AD9EF05EBD05011BFC0A8F /* DefaultCaretPositionCorrector.swift in Sources */,
+				7B3FBE8F527D1DD9BB235C56B7242995 /* DefaultRangeCalculator.swift in Sources */,
+				96E461D8A1B310F23A43A48F37570687 /* DefaultTextFormatter.swift in Sources */,
+				F409E2C162AA7D326702FEF2BAC901EB /* DefaultTextInputFormatter.swift in Sources */,
+				900C16CC748946BFD0634FC1126AF019 /* FormattedTextValue.swift in Sources */,
+				51A74D8AC19CC18B8158DC68E3E4B008 /* PlaceholderCaretPositionCalculator.swift in Sources */,
+				D8603DCE1EB29E65BF7DFDB305FFB3A0 /* PlaceholderRangeCalculator.swift in Sources */,
+				B1C3A4D0523613F9EC146B517153AF1D /* PlaceholderTextFormatter.swift in Sources */,
+				A7A3B529E8FF2FAC6049D227E2DBA3A6 /* PlaceholderTextInputFormatter.swift in Sources */,
+				BEEF357E903246016CD5585DE6AE0679 /* String+Extension.swift in Sources */,
+				F09D9D2FA85F0EC6E8319CA9ACC9953F /* SumFormatParser.swift in Sources */,
+				A3AE21C662F598978CE172528E17DFDE /* SumTextFormatter.swift in Sources */,
+				4EE6D9263470CE90E1BA3988632CDC04 /* SumTextInputFormatter.swift in Sources */,
+				2BEFFC54769B4B0C53ED93745B58866A /* SumTextInputFormatterCaretPositionCalculator.swift in Sources */,
+				C409A89917BC85328850BBE8F03A7FEE /* TextFieldInputController.swift in Sources */,
+				940CDA96AECB66EE63A4DCC94978C390 /* TextFieldStartInputController.swift in Sources */,
+				F38AE9BF9DCE6FEFAFA7F2286D7A1867 /* TextFormatter.swift in Sources */,
+				C7F76668EC35C306F9A0F6F717360DDA /* TextInputFormatter.swift in Sources */,
+				F5B2562FD7A8F9697A1C3BFE89AFFBC1 /* TextNumberFormatter.swift in Sources */,
+				72163F321F3A375EC06CBDEA3762E6AA /* TextNumberUnformatter.swift in Sources */,
+				0F522767CD39CC342A0CF578FEA8C98C /* TextUnformatter.swift in Sources */,
+				A99ABDCE9E1E7FCC4DD4F894CA974477 /* TextViewInputController.swift in Sources */,
+				DB270C8678EED2B7D68D4DD5BAC9E408 /* TextViewStartInputController.swift in Sources */,
+				81904878C6E78FE4966D74A3C5C1E3C0 /* UITextField+Extension.swift in Sources */,
+				240A77EE17E81A14ED156100BBD9EA9B /* UITextView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		019E8AA0ECB250F2A05EC796E784DC67 /* PBXTargetDependency */ = {
+		263E126D9D3040C1D2CC5C2422072A9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AnyFormatKit;
 			target = 8C07AD7DF8B0F18B7DB12F0D2C1F899D /* AnyFormatKit */;
-			targetProxy = D53408C69F86211563FDE5C898C3270E /* PBXContainerItemProxy */;
+			targetProxy = 0E72B5D6249101F51E0BD9FADB46B73A /* PBXContainerItemProxy */;
 		};
-		7E379539F29A42BDD9D752912A1A9971 /* PBXTargetDependency */ = {
+		36BA00827EADCD2FAB6A92718D95849B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AnyFormatKit;
 			target = 8C07AD7DF8B0F18B7DB12F0D2C1F899D /* AnyFormatKit */;
-			targetProxy = 95B2779F6DCB4BB1ACF453E506E7DC4B /* PBXContainerItemProxy */;
+			targetProxy = 93BF9414FE1007FF0A7BC15474BDA94F /* PBXContainerItemProxy */;
 		};
-		F9EF4878E983339DF6C79F0BB699D6B6 /* PBXTargetDependency */ = {
+		BAD098BDF82E51CC84AA335C9EF7CE2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AnyFormatKitSwiftUI;
 			target = A25A84CE14FDCA1B49A3CDDC4381057A /* AnyFormatKitSwiftUI */;
-			targetProxy = 13B06335F0BCDA97B8056EAF36B7A416 /* PBXContainerItemProxy */;
+			targetProxy = F7923AAE766741CBB9911B706E3B7C95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -624,9 +627,9 @@
 			};
 			name = Release;
 		};
-		629B34937F2FC60BA5121A93F6C49FE6 /* Release */ = {
+		7D9E49CBE3983BE51B4D22A89C8DDCA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ECA9BC220B1AF56D0FA305CC49C124F /* AnyFormatKit.release.xcconfig */;
+			baseConfigurationReference = FC229A2A6B8329EEEC1EBE711927645C /* AnyFormatKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -639,7 +642,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AnyFormatKit/AnyFormatKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AnyFormatKit/AnyFormatKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -895,9 +898,9 @@
 			};
 			name = Debug;
 		};
-		E8F6D82565893ACB21659782D95B65FF /* Debug */ = {
+		ED0D5789B19584705EB29D7E63B4DA88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33615E7EAA821EA29BF0966BB60F1BAC /* AnyFormatKit.debug.xcconfig */;
+			baseConfigurationReference = 528498A591829B61AB84AD220D8FE0D4 /* AnyFormatKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -910,7 +913,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AnyFormatKit/AnyFormatKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AnyFormatKit/AnyFormatKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -932,15 +935,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28B31DB29AF907AB0441E388CB7071E1 /* Build configuration list for PBXNativeTarget "AnyFormatKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8F6D82565893ACB21659782D95B65FF /* Debug */,
-				629B34937F2FC60BA5121A93F6C49FE6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4718C72DE6960975D0162EC8EB22470E /* Build configuration list for PBXNativeTarget "Pods-CocoapodsCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -964,6 +958,15 @@
 			buildConfigurations = (
 				CA0B24AB7D1594354F27E40B875AB2DE /* Debug */,
 				9C53F88EF14FE5C2813EDEECDBFCDAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BAF8046741D7A4F90F4BB3A41E1983 /* Build configuration list for PBXNativeTarget "AnyFormatKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0D5789B19584705EB29D7E63B4DA88 /* Debug */,
+				7D9E49CBE3983BE51B4D22A89C8DDCA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

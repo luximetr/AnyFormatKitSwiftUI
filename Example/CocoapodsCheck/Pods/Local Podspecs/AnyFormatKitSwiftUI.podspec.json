@@ -1,6 +1,6 @@
 {
   "name": "AnyFormatKitSwiftUI",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "summary": "Simple text formatting in SwiftUI.",
   "description": "This framework provide to format text with format like \"## ##-###\", where # - replaceble symbol. Support format all string or character by character input.",
   "homepage": "https://github.com/luximetr/AnyFormatKitSwiftUI",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/luximetr/AnyFormatKitSwiftUI.git",
-    "tag": "0.2.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "13.0"
@@ -22,7 +22,7 @@
   "source_files": "Sources/**/*",
   "dependencies": {
     "AnyFormatKit": [
-      "~> 2.4.0"
+      "~> 2.5.2"
     ]
   },
   "swift_version": "5.0"

@@ -1,7 +1,7 @@
 PODS:
-  - AnyFormatKit (2.4.0)
-  - AnyFormatKitSwiftUI (0.2.0):
-    - AnyFormatKit (~> 2.4.0)
+  - AnyFormatKit (2.5.2)
+  - AnyFormatKitSwiftUI (0.5.0):
+    - AnyFormatKit (~> 2.5.2)
 
 DEPENDENCIES:
   - AnyFormatKitSwiftUI (from `../../`)
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  AnyFormatKit: 2ca2ad3f6fa0f6862a650342141d2bcaa42e9186
-  AnyFormatKitSwiftUI: 60971ef9ff196a910c1bc548929628a918256187
+  AnyFormatKit: b0dbb2a5f2fe7a0fc97f401f8a219a47ee63a335
+  AnyFormatKitSwiftUI: 8a2bf917062de478270112f3cd4805349efbd25c
 
 PODFILE CHECKSUM: a05453334068cdb33cc16ef7c4e453572c0c89ac
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1
