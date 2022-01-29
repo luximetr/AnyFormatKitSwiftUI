@@ -19,6 +19,7 @@ public struct FormatTextField: UIViewRepresentable {
     
     private let placeholder: String?
     @Binding public var unformattedText: String
+    private let charactersToRemoveOnPaste: [Character]
     
     // MARK: - Appearence
     
@@ -53,16 +54,19 @@ public struct FormatTextField: UIViewRepresentable {
         self._unformattedText = unformattedText
         self.placeholder = placeholder
         self.formatter = formatter
+        charactersToRemoveOnPaste = []
     }
     
     /// Will init with DefaultTextInputFormatter
     public init(unformattedText: Binding<String>,
                 placeholder: String? = nil,
                 textPattern: String,
-                patternSymbol: Character = "#") {
+                patternSymbol: Character = "#",
+                charactersToRemoveOnPaste: [Character] = []) {
         self._unformattedText = unformattedText
         self.placeholder = placeholder
         self.formatter = DefaultTextInputFormatter(textPattern: textPattern, patternSymbol: patternSymbol)
+        self.charactersToRemoveOnPaste = charactersToRemoveOnPaste
     }
     
     // MARK: - UIViewRepresentable
@@ -109,7 +113,8 @@ public struct FormatTextField: UIViewRepresentable {
     }
     
     public func makeCoordinator() -> Coordinator {
-        let coordinator = Coordinator(unformattedText: $unformattedText)
+        let coordinator = Coordinator(unformattedText: $unformattedText,
+                                      charactersToRemoveOnPaste: charactersToRemoveOnPaste)
         coordinator.onEditingBegan = onEditingBeganHandler
         coordinator.onEditingEnd = onEditingEndHandler
         coordinator.onTextChange = onTextChangeHandler
@@ -269,6 +274,7 @@ public struct FormatTextField: UIViewRepresentable {
     public class Coordinator: NSObject, UITextFieldDelegate {
         
         let unformattedText: Binding<String>?
+        let charactersToRemoveOnPaste: [Character]
         
         var formatter: (TextInputFormatter & TextUnformatter)?
         
@@ -278,16 +284,21 @@ public struct FormatTextField: UIViewRepresentable {
         public var onClear: VoidAction?
         public var onReturn: VoidAction?
         
-        init(unformattedText: Binding<String>) {
+        init(unformattedText: Binding<String>, charactersToRemoveOnPaste: [Character]) {
             self.unformattedText = unformattedText
+            self.charactersToRemoveOnPaste = charactersToRemoveOnPaste
         }
         
         public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
             guard let formatter = formatter else { return true }
+            var cleanedString = string
+            if !charactersToRemoveOnPaste.isEmpty {
+                cleanedString = cleanedString.clean(filterOut: charactersToRemoveOnPaste)
+            }
             let result = formatter.formatInput(
                 currentText: textField.text ?? "",
                 range: range,
-                replacementString: string
+                replacementString: cleanedString
             )
             textField.text = result.formattedText
             textField.setCursorLocation(result.caretBeginOffset)
