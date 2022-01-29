@@ -248,7 +248,7 @@ public struct FormatSumTextField: UIViewRepresentable {
     }
     
     // textContentType
-    public func textContentType(_ type: UITextContentType) -> Self {
+    public func textContentType(_ type: UITextContentType?) -> Self {
         var view = self
         view.textContentType = type
         return view

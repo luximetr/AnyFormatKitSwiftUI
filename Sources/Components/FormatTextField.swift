@@ -228,10 +228,9 @@ public struct FormatTextField: UIViewRepresentable {
     }
     
     // textContentType
-    public func textContentType(_ type: UITextContentType) -> Self {
+    public func textContentType(_ type: UITextContentType?) -> Self {
         var view = self
         view.textContentType = type
-        print("Updated text content type")
         return view
     }
     
