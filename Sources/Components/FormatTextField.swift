@@ -80,6 +80,7 @@ public struct FormatTextField: UIViewRepresentable {
     }
     
     public func updateUIView(_ uiView: UIViewType, context: Context) {
+        context.coordinator.formatter = formatter
         let formattedText = formatter.format(unformattedText)
         if uiView.text != formattedText {
             uiView.text = formattedText
